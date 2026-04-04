@@ -2,3 +2,6 @@ data/
 
 *.tar.gz
 
+pytorch_cifar_models/
+
+models/weights/
