@@ -31,8 +31,8 @@ def train_model(model_type='cloud', total_epochs=20, batch_size=16, base_lr=3e-4
     save_path = os.path.join(save_dir, f'best_{model_type}.pth')
     best_val_acc = 0.0
 
-    # 【新增】初始化梯度缩放器，用于混合精度训练防下溢
-    scaler = torch.cuda.amp.GradScaler(enabled=torch.cuda.is_available())
+    # 初始化梯度缩放器，用于混合精度训练防下溢
+    scaler = torch.amp.GradScaler('cuda',enabled=torch.cuda.is_available())
 
     # ================= 第一阶段：Linear Probing (仅训练分类头) =================
     if model_type == 'cloud':
@@ -54,12 +54,12 @@ def train_model(model_type='cloud', total_epochs=20, batch_size=16, base_lr=3e-4
                 images, labels = images.to(device), labels.to(device)
                 head_optimizer.zero_grad()
                 
-                # 【新增】使用 autocast 开启前向传播的混合精度
-                with torch.cuda.amp.autocast(enabled=torch.cuda.is_available()):
+                # 使用 autocast 开启前向传播的混合精度
+                with torch.amp.autocast('cuda',enabled=torch.cuda.is_available()):
                     outputs = model(images)
                     loss = criterion(outputs, labels)
                 
-                # 【修改】使用 scaler 缩放 loss 并反向传播
+                # 使用 scaler 缩放 loss 并反向传播
                 scaler.scale(loss).backward()
                 scaler.step(head_optimizer)
                 scaler.update()
@@ -74,8 +74,7 @@ def train_model(model_type='cloud', total_epochs=20, batch_size=16, base_lr=3e-4
             with torch.no_grad():
                 for images, labels in val_loader:
                     images, labels = images.to(device), labels.to(device)
-                    # 推理时同样可以使用混合精度加速
-                    with torch.cuda.amp.autocast(enabled=torch.cuda.is_available()):
+                    with torch.amp.autocast('cuda',enabled=torch.cuda.is_available()):
                         outputs = model(images)
                     _, predicted = torch.max(outputs.data, 1)
                     total += labels.size(0)
@@ -94,7 +93,26 @@ def train_model(model_type='cloud', total_epochs=20, batch_size=16, base_lr=3e-4
     ft_epochs = total_epochs - warmup_epochs
     logger.info(f"[Stage 2] 开始全量微调，共 {ft_epochs} 轮...")
     
-    optimizer = optim.AdamW(model.parameters(), lr=base_lr, weight_decay=1e-3)
+    # 【修改点】根据模型类型动态分配 weight_decay
+    wd = 1e-4 if model_type == 'edge' else 0.05
+    
+    if model_type == 'cloud':
+        # 提取分类头的参数
+        head_params = list(model.heads.parameters())
+        head_param_ids = [id(p) for p in head_params]
+        # 提取主干网络的参数
+        backbone_params = [p for p in model.parameters() if id(p) not in head_param_ids]
+        
+        # 使用差异化学习率：主干网络学习率缩小 10 倍
+        optimizer = optim.AdamW([
+            {'params': backbone_params, 'lr': base_lr * 0.1}, 
+            {'params': head_params, 'lr': base_lr}            
+        ], weight_decay=wd)
+        logger.info(f"已启用差异化学习率: 主干网络={base_lr*0.1:.0e}, 分类头={base_lr:.0e}")
+    else:
+        # 端侧模型结构简单，保持统一学习率即可
+        optimizer = optim.AdamW(model.parameters(), lr=base_lr, weight_decay=wd)
+
     scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=ft_epochs, eta_min=1e-6)
 
     for epoch in range(1, ft_epochs + 1):
@@ -106,12 +124,12 @@ def train_model(model_type='cloud', total_epochs=20, batch_size=16, base_lr=3e-4
             images, labels = images.to(device), labels.to(device)
             optimizer.zero_grad()
 
-            # 【新增】混合精度前向传播
-            with torch.cuda.amp.autocast(enabled=torch.cuda.is_available()):
+            # 混合精度前向传播
+            with torch.amp.autocast('cuda',enabled=torch.cuda.is_available()):
                 outputs = model(images)
                 loss = criterion(outputs, labels)
 
-            # 【修改】混合精度反向传播与梯度裁剪的兼容处理
+            # 混合精度反向传播与梯度裁剪的兼容处理
             scaler.scale(loss).backward()
             
             # 必须先 unscale 才能正确裁剪梯度
@@ -133,7 +151,7 @@ def train_model(model_type='cloud', total_epochs=20, batch_size=16, base_lr=3e-4
         with torch.no_grad():
             for images, labels in val_loader:
                 images, labels = images.to(device), labels.to(device)
-                with torch.cuda.amp.autocast(enabled=torch.cuda.is_available()):
+                with torch.amp.autocast('cuda',enabled=torch.cuda.is_available()):
                     outputs = model(images)
                 _, predicted = torch.max(outputs.data, 1)
                 total += labels.size(0)
@@ -157,7 +175,7 @@ def train_model(model_type='cloud', total_epochs=20, batch_size=16, base_lr=3e-4
     with torch.no_grad():
         for images, labels in test_loader:
             images, labels = images.to(device), labels.to(device)
-            with torch.cuda.amp.autocast(enabled=torch.cuda.is_available()):
+            with torch.amp.autocast('cuda',enabled=torch.cuda.is_available()):
                 outputs = model(images)
             _, predicted = torch.max(outputs.data, 1)
             test_total += labels.size(0)
@@ -167,7 +185,7 @@ def train_model(model_type='cloud', total_epochs=20, batch_size=16, base_lr=3e-4
     logger.info(f"!!! 最终盲测 - 测试集准确率(Test Acc): {test_acc:.2f}% !!!\n")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="训练 CIFAR-100 端云协同模型")
+    parser = argparse.ArgumentParser(description="训练 Food-101 端云协同模型")
     parser.add_argument('--model', type=str, choices=['edge', 'cloud'], required=True)
     parser.add_argument('--epochs', type=int, default=20)
     parser.add_argument('--batch_size', type=int, default=16)
