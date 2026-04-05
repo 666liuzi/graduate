@@ -1,6 +1,3 @@
-这里为你精心编写了一份专业、详实且极具学术规范的 `README.md`，完美总结了你目前所有的硬核工作和代码逻辑。你可以直接将它复制并覆盖到你仓库根目录的 `README.md` 文件中：
-
-```markdown
 # 基于大小模型协同的泛在感知任务执行
 **Ubiquitous Perception Task Execution Based on Big-Small Model Collaboration**
 
