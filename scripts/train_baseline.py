@@ -97,18 +97,16 @@ def train_model(model_type='cloud', total_epochs=20, batch_size=16, base_lr=3e-4
     wd = 1e-4 if model_type == 'edge' else 0.05
     
     if model_type == 'cloud':
-        # 提取分类头的参数
         head_params = list(model.heads.parameters())
         head_param_ids = [id(p) for p in head_params]
-        # 提取主干网络的参数
         backbone_params = [p for p in model.parameters() if id(p) not in head_param_ids]
         
-        # 使用差异化学习率：主干网络学习率缩小 10 倍
+        # 主干网络除以 30（即 3e-4 / 30 = 1e-5），分类头除以 3（即 1e-4）
         optimizer = optim.AdamW([
-            {'params': backbone_params, 'lr': base_lr * 0.1}, 
-            {'params': head_params, 'lr': base_lr}            
+            {'params': backbone_params, 'lr': base_lr / 30}, 
+            {'params': head_params, 'lr': base_lr / 3}            
         ], weight_decay=wd)
-        logger.info(f"已启用差异化学习率: 主干网络={base_lr*0.1:.0e}, 分类头={base_lr:.0e}")
+        logger.info(f"已启用差异化学习率: 主干网络={base_lr/30:.0e}, 分类头={base_lr/3:.0e}")
     else:
         # 端侧模型结构简单，保持统一学习率即可
         optimizer = optim.AdamW(model.parameters(), lr=base_lr, weight_decay=wd)
