@@ -1,0 +1,4502 @@
+{
+    "data\\food-101\\images\\churros\\1061830.jpg": {
+        "true_label": 23,
+        "edge_pred": 100,
+        "edge_conf": 0.2441,
+        "cloud_pred": 23,
+        "cloud_conf": 0.7369,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\1064042.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\1074903.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"面团\", \"油\"]},\n        \"果酱\":{\"食品组成\":[\"果酱\"]},\n        \"奶油\":{\"食品组成\":[\"奶油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnuts"
+    },
+    "data\\food-101\\images\\churros\\1085259.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\1097261.jpg": {
+        "true_label": 23,
+        "edge_pred": 6,
+        "edge_conf": 0.2501,
+        "cloud_pred": 42,
+        "cloud_conf": 0.4731,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"蛋黄派\":{\"食品组成\":[\"鸡蛋\", \"黄油\", \"糖\", \"面粉\"]}\n    }\n}\n```",
+        "final_fusion_pred": "egg"
+    },
+    "data\\food-101\\images\\churros\\1099137.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    },\n    \"饮品\": {\n        \"咖啡\":{\"食品组成\": [\"咖啡豆\", \"水\"]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\1105308.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\"]}\n    },\n    \"饮品\": {\n        \"果酱\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\1121931.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.3952,
+        "cloud_pred": 23,
+        "cloud_conf": 0.5246,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[\"油条\", \"巧克力酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\1130533.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9998,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸糕\":{\"食品组成\":[\"面团\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\1142581.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\1148015.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\":[\"炸糕\"]},\n        \"蘸酱\":{\"食品组成\":[\"黄油酱\", \"巧克力酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\1157589.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9999,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[\"面团\", \"油\"]}\n    },\n    \"配菜\":{\"食品组成\":[\"巧克力酱\", \"糖粉\"]}\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\1162376.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]}\n    },\n    \"饮料\":{\"食品组成\": [\"咖啡\"]}\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\1168179.jpg": {
+        "true_label": 23,
+        "edge_pred": 68,
+        "edge_conf": 0.5381,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\1173613.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9996,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\1183750.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9977,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\", \"草莓\"]}, \n        \"酱料\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\1213663.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9937,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9729,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸薯条\":{\"食品组成\":[\"土豆\"]},\n        \"草莓\":{\"食品组成\":[\"草莓\"]},\n        \"糖粉\":{\"食品组成\":[\"糖粉\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\1214695.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.7088,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9992,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"甜甜圈\":{\"食品组成\": [\"面团\", \"糖粉\"]}\n    }\n}\n```",
+        "final_fusion_pred": "donuts"
+    },
+    "data\\food-101\\images\\churros\\1235914.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9999,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\"]},\n        \"咖啡\":{\"食品组成\":[\"咖啡\"]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\1239292.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.996,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸薯条\":{\"食品组成\": [\"土豆\"]},\n        \"巧克力酱\":{\"食品组成\": []}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\1251291.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9999,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\", \"巧克力酱\"]}, \n        \"巧克力\":{\"食品组成\":[\"巧克力酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\125886.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[\"面团\", \"油\"]}\n    },\n    \"巧克力酱\":{\"食品组成\":[]}\n}\n```",
+        "final_fusion_pred": "chocolate_sauce"
+    },
+    "data\\food-101\\images\\churros\\127590.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9991,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9955,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸薯条\":{\"食品组成\": [\"土豆\"]},\n        \"蘸酱\":{\"食品组成\": [\"酱料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\1286743.jpg": {
+        "true_label": 23,
+        "edge_pred": 21,
+        "edge_conf": 0.6684,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"煎饼卷\": {\"食品组成\": [\"煎饼卷\", \"蓝莓\", \"草莓\", \"酱汁\"]}\n    }\n}\n```",
+        "final_fusion_pred": "crepes"
+    },
+    "data\\food-101\\images\\churros\\1294048.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9894,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸薯条\":{\"食品组成\": [\"土豆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\1348657.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9925,
+        "cloud_pred": 2,
+        "cloud_conf": 0.8751,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"空心饼\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\137086.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸薯条\":{\"食品组成\": [\"薯条\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\1420399.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[\"面团\", \"油\"]}\n    },\n    \"饮料\":{\"食品组成\":[\"巧克力酱\"]}\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\1501410.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\":[\"面团\", \"糖浆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\1502733.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    },\n    \"饮料\":{\"食品组成\": [\"咖啡\"]}\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\1503591.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\": [\"面团\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\1560770.jpg": {
+        "true_label": 23,
+        "edge_pred": 2,
+        "edge_conf": 0.6733,
+        "cloud_pred": 36,
+        "cloud_conf": 0.8702,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"麻球\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "sesame_balls"
+    },
+    "data\\food-101\\images\\churros\\1562038.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9999,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9991,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸薯条\":{\"食品组成\":[\"土豆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\1564939.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9987,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\1572415.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9993,
+        "cloud_pred": 52,
+        "cloud_conf": 0.4515,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \" Chimney Cake\":{\"食品组成\": [\"面团\", \"糖粉\", \"香料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chimney_cake"
+    },
+    "data\\food-101\\images\\churros\\1630055.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9174,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9938,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\1634185.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\"]},\n        \"巧克力\":{\"食品组成\":[\"巧克力\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\1673820.jpg": {
+        "true_label": 23,
+        "edge_pred": 43,
+        "edge_conf": 0.3318,
+        "cloud_pred": 47,
+        "cloud_conf": 0.4456,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸物\":{\"食品组成\":[\"炸物\", \"番茄酱\", \"酸奶油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\1681026.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9792,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9796,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸物\":{\"食品组成\":[\"炸物\", \"蘸酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸物"
+    },
+    "data\\food-101\\images\\churros\\1683636.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.987,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[\"油条\", \"巧克力酱\", \"焦糖酱\", \"草莓\", \"薄荷叶\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\1683772.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\1688402.jpg": {
+        "true_label": 23,
+        "edge_pred": 22,
+        "edge_conf": 0.6608,
+        "cloud_pred": 29,
+        "cloud_conf": 0.3474,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"San Churro\":{\"食品组成\":[\"面包片\", \"奶油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "san_churro"
+    },
+    "data\\food-101\\images\\churros\\1709019.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9975,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸面团\": {\"食品组成\": [\"面粉\", \"鸡蛋\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnuts"
+    },
+    "data\\food-101\\images\\churros\\1728462.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\": [\"面团\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\1730900.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9914,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9869,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸鸡块\":{\"食品组成\": [\"鸡肉\", \"面包屑\"]}\n    },\n    \"配菜\": {\n        \"蘸酱\":{\"食品组成\": [\"番茄酱\", \"酱料A\", \"酱料B\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chicken_quesadilla"
+    },
+    "data\\food-101\\images\\churros\\1731067.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"植物油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\1736177.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.975,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9946,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": [\n        \"巧克力酱\":{\"食品组成\": [\"巧克力\"]}\n    ],\n    \"饮料名称\": [\n        \"咖啡\":{\"食品组成\": [\"咖啡豆\"]}\n    ]\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\1737797.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9845,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸糕\":{\"食品组成\": [\"面团\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\1751757.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[\"面团\", \"油\"]}\n    },\n    \"酱料\":{\"食品组成\":[\"巧克力酱\"]}\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\1766438.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]},\n        \"巧克力酱\":{\"食品组成\": []}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_mousse"
+    },
+    "data\\food-101\\images\\churros\\1797535.jpg": {
+        "true_label": 23,
+        "edge_pred": 25,
+        "edge_conf": 0.3347,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9793,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"面团\", \"油\"]},\n        \"草莓\":{\"食品组成\":[\"草莓\", \"巧克力酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "strawberries"
+    },
+    "data\\food-101\\images\\churros\\1816647.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9598,
+        "cloud_pred": 23,
+        "cloud_conf": 0.987,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]},\n        \"冰激凌\":{\"食品组成\": [\"奶油\", \"糖\", \"牛奶\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\1840475.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.3723,
+        "cloud_pred": 23,
+        "cloud_conf": 0.8962,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"提拉米苏\":{\"食品组成\":[\"提拉米苏\", \"手指饼干(Churros)\", \"糖粉\", \"可可粉\"]}\n    }\n}\n```",
+        "final_fusion_pred": "tiramisu"
+    },
+    "data\\food-101\\images\\churros\\1855779.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9785,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\": [\"面团\", \"糖粉\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\1859877.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.5634,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9859,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\":[\"面团\", \"油\"]}\n    },\n    \"配菜\":{\"食品组成\":[\"酱料\", \"蔬菜\"]}\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\1881699.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9528,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\1904318.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9948,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9981,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\", \"巧克力酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\1931612.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\1939241.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"黄油\", \"鸡蛋\", \"糖\"]},\n        \"酱料\":{\"食品组成\": [\"糖浆\", \"咖啡\"]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnuts"
+    },
+    "data\\food-101\\images\\churros\\1975148.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9999,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9745,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"千层饼\":{\"食品组成\":[\"面皮\", \"馅料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "pancakes"
+    },
+    "data\\food-101\\images\\churros\\1980483.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"面团\", \"油\"]}\n    },\n    \"饮料\":{\"食品组成\":[\"巧克力酱\"]}\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\199032.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"煎饼\":{\"食品组成\":[\"煎饼\"]},\n        \"酱汁\":{\"食品组成\":[\"酱汁\"]}\n    }\n}\n```",
+        "final_fusion_pred": "pancakes"
+    },
+    "data\\food-101\\images\\churros\\2015378.jpg": {
+        "true_label": 23,
+        "edge_pred": 14,
+        "edge_conf": 0.7087,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸薯条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\2031930.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\2037510.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"植物油\"]}\n    },\n    \"饮料\": {\n        \"咖啡\":{\"食品组成\": [\"咖啡豆\", \"水\"]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\2041073.jpg": {
+        "true_label": 23,
+        "edge_pred": 100,
+        "edge_conf": 0.9971,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9953,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": [\n        \"烤饼卷糕\":{\"食品组成\":[\"烤饼卷\", \"糖浆\", \"奶油\"]}\n    ]\n}\n```",
+        "final_fusion_pred": "烤饼卷糕"
+    },
+    "data\\food-101\\images\\churros\\2055280.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9982,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸油条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\2059542.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\", \"糖粉\"]},\n        \"茶\":{\"食品组成\": [\"茶叶\", \"水\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\2074713.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9805,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸糕\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\2112924.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9999,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸薯条\":{\"食品组成\": [\"土豆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\2146131.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9748,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\":[\"面糊\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\2149879.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9986,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\":[\"面团\", \"糖粉\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\2157712.jpg": {
+        "true_label": 23,
+        "edge_pred": 40,
+        "edge_conf": 0.8079,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": [\n        \"薯条\":{\"食品组成\":[\"土豆\", \"油\"]}, \n        \"酱料\":{\"食品组成\":[\"糖浆\", \"酱汁\"]}\n    ]\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\2186665.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9996,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9998,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸薯条\":{\"食品组成\": [\"土豆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\2188772.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸鸡翅\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "chicken_wings"
+    },
+    "data\\food-101\\images\\churros\\2236356.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9982,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9575,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\2255673.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9999,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": [\n        \"心形糕点\":{\"食品组成\": [\"面团\"]}\n    ]\n}\n```",
+        "final_fusion_pred": "waffles"
+    },
+    "data\\food-101\\images\\churros\\2261310.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"巧克力饮品\":{\"食品组成\":[\"巧克力\", \"杯子\"]},\n        \"饼干\":{\"食品组成\":[\"饼干\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_mousse"
+    },
+    "data\\food-101\\images\\churros\\2264940.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9996,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9996,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\":[\"面团\", \"糖粉\"]}\n    },\n    \"配菜\":{\"食品组成\":[\"奶油\", \"糖浆\"]}\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\2270485.jpg": {
+        "true_label": 23,
+        "edge_pred": 68,
+        "edge_conf": 0.9945,
+        "cloud_pred": 68,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\2297235.jpg": {
+        "true_label": 23,
+        "edge_pred": 57,
+        "edge_conf": 0.3537,
+        "cloud_pred": 52,
+        "cloud_conf": 0.5336,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\"]},\n        \"黄油\":{\"食品组成\":[\"黄油\"]},\n        \"花生酱\":{\"食品组成\":[\"花生酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "peanut_butter"
+    },
+    "data\\food-101\\images\\churros\\230131.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.7266,
+        "cloud_pred": 23,
+        "cloud_conf": 0.997,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸物\":{\"食品组成\":[\"油条\"]},\n        \"蘸酱\":{\"食品组成\":[\"果酱\", \"坚果\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\2307498.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸薯条\":{\"食品组成\":[\"土豆\"]},\n        \"果酱\":{\"食品组成\":[\"果酱\"]},\n        \"黑莓\":{\"食品组成\":[\"黑莓\"]},\n        \"草莓\":{\"食品组成\":[\"草莓\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\2315601.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.8825,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9519,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"煎饼卷\": {\"食品组成\": [\"煎饼卷\", \"奶油\", \"巧克力酱\", \"樱桃\", \"薄荷叶\"]}\n    }\n}\n```",
+        "final_fusion_pred": "crepes"
+    },
+    "data\\food-101\\images\\churros\\2360308.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]},\n        \"豆浆\":{\"食品组成\": [\"大豆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\2371997.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"面团\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\2376955.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9214,
+        "cloud_pred": 23,
+        "cloud_conf": 0.974,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸糕\":{\"食品组成\":[\"面团\", \"油\", \"糖粉\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\238429.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\": [\"面糊\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\2399421.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\", \"巧克力酱\", \"糖粉\"]},\n        \"巧克力酱\":{\"食品组成\":[\"巧克力\"]},\n        \"糖粉\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\2403548.jpg": {
+        "true_label": 23,
+        "edge_pred": 97,
+        "edge_conf": 0.7838,
+        "cloud_pred": 60,
+        "cloud_conf": 0.9165,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"甜点\":{\"食品组成\":[\"樱桃\", \"巧克力球\", \"奶油\", \"饼干\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\2410744.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9975,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\245301.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": [\n        \"油条\":{\"食品组成\":[]}, \n        \"酱油\":{\"食品组成\":[]}\n    ]\n}\n```",
+        "final_fusion_pred": "spring_rolls"
+    },
+    "data\\food-101\\images\\churros\\2484407.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\2489040.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9968,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9996,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸油条\":{\"食品组成\": [\"面粉\", \"黄油\", \"糖浆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\2509088.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9994,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9969,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\"]},\n        \"酱料\":{\"食品组成\":[\"辣椒酱\", \"黑胡椒酱\", \"番茄酱\"]},\n        \"草莓\":{\"食品组成\":[\"草莓\"]}\n    }\n}\n```",
+        "final_fusion_pred": "strawberry_shortcake"
+    },
+    "data\\food-101\\images\\churros\\2522264.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9957,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9366,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"巧克力慕斯\":{\"食品组成\":[\"巧克力\", \"慕斯\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_mousse"
+    },
+    "data\\food-101\\images\\churros\\2526456.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.5506,
+        "cloud_pred": 45,
+        "cloud_conf": 0.8101,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"冰激凌\":{\"食品组成\":[\"冰激凌\", \"巧克力酱\", \"饼干条\"]},\n        \"饼干条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "ice_cream"
+    },
+    "data\\food-101\\images\\churros\\2537428.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"黄油\", \"鸡蛋\", \"盐\"]}\n    },\n    \"饮料\":{\"食品组成\": [\"咖啡粉\", \"水\"]}\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\254472.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9838,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9988,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\"]},\n        \"糖浆\":{\"食品组成\":[\"糖浆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\2545695.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9904,
+        "cloud_pred": 23,
+        "cloud_conf": 0.7582,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]}\n    },\n    \"配菜\":{\"食品组成\": [\"糖浆\", \"酱料\"]}\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\2546790.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9525,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"烤肠卷饼\":{\"食品组成\":[\"烤肠卷饼\", \"奶油\", \"巧克力酱\", \"樱桃\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_dog"
+    },
+    "data\\food-101\\images\\churros\\255168.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]}\n    },\n    \"酱料\":{\"食品组成\": [\"巧克力酱\"]}\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\2555793.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9721,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9945,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕卷\": {\"食品组成\": [\"炸糕\", \"草莓\", \"糖浆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕卷"
+    },
+    "data\\food-101\\images\\churros\\2562650.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9996,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"植物油\", \"盐\", \"发酵粉\"]}\n    },\n    \"饮料名称\": {\n        \"咖啡\":{\"食品组成\": [\"咖啡豆\", \"水\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\256560.jpg": {
+        "true_label": 23,
+        "edge_pred": 8,
+        "edge_conf": 0.3538,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9884,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": [\n        \"炸糕\":{\"食品组成\":[\"炸糕\", \"巧克力酱\", \"奶油\"]}, \n        \"奶油\":{\"食品组成\":[]}, \n        \"巧克力酱\":{\"食品组成\":[]}\n    ]\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\2601843.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\": [\"面团\", \"油\"]}\n    },\n    \"配菜\":{\"食品组成\": [\"糖浆\", \"黄油\"]}\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\2604351.jpg": {
+        "true_label": 23,
+        "edge_pred": 68,
+        "edge_conf": 0.5353,
+        "cloud_pred": 68,
+        "cloud_conf": 0.9838,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": [\n        \"炸洋葱圈\":{\"食品组成\":[]}\n    ]\n}\n```",
+        "final_fusion_pred": "onion_rings"
+    },
+    "data\\food-101\\images\\churros\\2610912.jpg": {
+        "true_label": 23,
+        "edge_pred": 27,
+        "edge_conf": 0.6876,
+        "cloud_pred": 94,
+        "cloud_conf": 0.6718,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\":[\"炸糕\"]},\n        \"小菜\":{\"食品组成\":[\"辣椒酱\", \"酸奶\", \"果酱\"]},\n        \"主食\":{\"食品组成\":[\"米饭\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\2617186.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9506,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[\"面粉\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\2618045.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"面团\", \"油\"]}\n    },\n    \"饮料\":{\"食品组成\":[\"巧克力酱\"]}\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\2623176.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.998,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9994,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": [\n        \"甜点\":{\"食品组成\":[\"巧克力酱\", \"薯条\"]}\n    ]\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\2663394.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.8851,
+        "cloud_pred": 62,
+        "cloud_conf": 0.8877,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"咖啡\":{\"食品组成\":[\"咖啡\", \"奶油\", \"焦糖酱\", \"肉桂\"]}, \n        \"糕点\":{\"食品组成\":[\"蛋奶皮\", \"黄豆芽\", \"糖粉\", \"薄荷叶\"]}\n    }\n}\n```",
+        "final_fusion_pred": "coffee_cake"
+    },
+    "data\\food-101\\images\\churros\\2697646.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"黄油\", \"鸡蛋\", \"盐\"]},\n        \"巧克力酱\":{\"食品组成\": [\"可可粉\", \"糖\", \"牛奶\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\2698148.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9981,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"长条饼\":{\"食品组成\":[\"长条饼\", \"巧克力酱\"]}, \n        \"杯子\":{\"食品组成\":[\"杯子\", \"巧克力酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\2702990.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9996,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\2707980.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9987,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸薯条\":{\"食品组成\":[\"土豆\", \"油\"]},\n        \"酱料\":{\"食品组成\":[\"酱料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\2708222.jpg": {
+        "true_label": 23,
+        "edge_pred": 57,
+        "edge_conf": 0.6428,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9976,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"冰激凌\":{\"食品组成\":[\"冰激凌\", \"可可粉\", \"奶油\", \"糖浆\"]},\n        \"油条\":{\"食品组成\":[\"油条\"]}\n    }\n}\n```",
+        "final_fusion_pred": "ice_cream"
+    },
+    "data\\food-101\\images\\churros\\2722631.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.8639,
+        "cloud_pred": 29,
+        "cloud_conf": 0.8307,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"薯条\":{\"食品组成\":[\"薯条\", \"巧克力酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\2735230.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.5967,
+        "cloud_pred": 23,
+        "cloud_conf": 0.7473,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"煎饼卷饼\":{\"食品组成\":[\"煎饼\", \"卷饼\"]}\n    }\n}\n```",
+        "final_fusion_pred": "pancakes"
+    },
+    "data\\food-101\\images\\churros\\274692.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9996,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"冰激凌\":{\"食品组成\":[\"冰激凌\", \"巧克力酱\", \"点燃的蜡烛\"]}, \n        \"炸糕\":{\"食品组成\":[\"炸糕\"]}\n    }\n}\n```",
+        "final_fusion_pred": "ice_cream"
+    },
+    "data\\food-101\\images\\churros\\2748152.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9998,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"薯片\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "chips"
+    },
+    "data\\food-101\\images\\churros\\275341.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9981,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸薯条\":{\"食品组成\": [\"土豆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\2763955.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"咖啡\":{\"食品组成\": [\"咖啡粉\", \"水\"]},\n        \"油条\":{\"食品组成\": []}\n    }\n}\n```",
+        "final_fusion_pred": "coffee"
+    },
+    "data\\food-101\\images\\churros\\2783537.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9628,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\": [\"面团\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\2791225.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"黄油\", \"鸡蛋\", \"空气\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\2807096.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9987,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9997,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\2813469.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9997,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9983,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]}\n    },\n    \"饮料\":{\"食品组成\": [\"酱油\"]}\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\2922132.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]}\n    },\n    \"巧克力酱\":{\"食品组成\": [\"巧克力\", \"调味料\"]}\n}\n```",
+        "final_fusion_pred": "chocolate_sauce"
+    },
+    "data\\food-101\\images\\churros\\2987007.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"面团\", \"油\"]}\n    },\n    \"酱料\":{\"食品组成\":[\"巧克力酱\"]}\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\3006013.jpg": {
+        "true_label": 23,
+        "edge_pred": 74,
+        "edge_conf": 0.3924,
+        "cloud_pred": 39,
+        "cloud_conf": 0.3772,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油炸食品\":{\"食品组成\":[\"面包\", \"馅料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hamburger"
+    },
+    "data\\food-101\\images\\churros\\3008612.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9999,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\3018761.jpg": {
+        "true_label": 23,
+        "edge_pred": 22,
+        "edge_conf": 0.8551,
+        "cloud_pred": 22,
+        "cloud_conf": 0.9527,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"烤土豆\":{\"食品组成\":[\"土豆\", \"烤制\"]},\n        \"薯条\":{\"食品组成\":[\"土豆\", \"油炸\"]}\n    }\n}\n```",
+        "final_fusion_pred": "baked_potato"
+    },
+    "data\\food-101\\images\\churros\\3026751.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9986,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9802,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\3029897.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.7252,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\3047939.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.5127,
+        "cloud_pred": 2,
+        "cloud_conf": 0.5661,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"烤肉串\":{\"食品组成\":[\"牛肉\", \"洋葱\", \"青椒\", \"蘑菇\"]}, \n        \"冰淇淋\":{\"食品组成\":[\"奶油\", \"糖粉\"]}\n    }\n}\n```",
+        "final_fusion_pred": "ice_cream"
+    },
+    "data\\food-101\\images\\churros\\3058558.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.987,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸糕\":{\"食品组成\":[\"面团\", \"糖粉\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\3070093.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.5348,
+        "cloud_pred": 40,
+        "cloud_conf": 0.9756,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸薯条\":{\"食品组成\":[\"土豆\"]},\n        \"蛋挞\":{\"食品组成\":[\"鸡蛋\", \"面粉\", \"黄油\", \"糖\"]},\n        \"咖啡\":{\"食品组成\":[\"咖啡豆\", \"水\"]}\n    }\n}\n```",
+        "final_fusion_pred": "coffee"
+    },
+    "data\\food-101\\images\\churros\\3072744.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9999,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面团\"]}\n    },\n    \"巧克力酱\":{\"食品组成\": []}\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\3077911.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.7874,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9996,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"Kiddy Churros\":{\"食品组成\":[\"面团\", \"巧克力酱\", \"彩虹糖屑\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\3097216.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9268,
+        "cloud_pred": 23,
+        "cloud_conf": 0.999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\3097712.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\3103265.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.4812,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9997,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸糕\":{\"食品组成\": [\"面团\", \"油\", \"糖粉\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\3104514.jpg": {
+        "true_label": 23,
+        "edge_pred": 6,
+        "edge_conf": 0.8196,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9975,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": [\n        \"油条\":{\"食品组成\":[\"面团\", \"油\"]}, \n        \"奶油\":{\"食品组成\":[\"奶油\", \"糖粉\"]}\n    ]\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\3111770.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.4048,
+        "cloud_pred": 23,
+        "cloud_conf": 0.7991,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"甜点\":{\"食品组成\":[\"糖霜\", \"装饰\"]}, \n        \"饮料\":{\"食品组成\":[\"深色液体\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\3168659.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9971,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[]}, \n        \"咖啡\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\3180897.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9992,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸糕\":{\"食品组成\":[\"油\", \"糖\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\3205589.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸薯条\":{\"食品组成\": [\"土豆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\3227551.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9186,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\3236111.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸薯条\":{\"食品组成\": [\"土豆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\3247092.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\":[\"炸糕\", \"巧克力酱\", \"奶油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\3268704.jpg": {
+        "true_label": 23,
+        "edge_pred": 40,
+        "edge_conf": 0.759,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9611,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": [\n        \"炸薯条\":{\"食品组成\": [\"土豆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\3297337.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9997,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9997,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": [\n        \"烤肠\":{\"食品组成\":[]}\n    ]\n}\n```",
+        "final_fusion_pred": "hot_dog"
+    },
+    "data\\food-101\\images\\churros\\3303373.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"面粉\", \"黄油\", \"糖粉\"]}, \n        \"咖啡\":{\"食品组成\":[\"咖啡豆\", \"水\"]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\3303522.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[\"面粉\", \"油\", \"盐\", \"糖\"]}, \n        \"咖啡\":{\"食品组成\":[\"咖啡豆\", \"水\", \"糖\"]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\3305924.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\3306440.jpg": {
+        "true_label": 23,
+        "edge_pred": 92,
+        "edge_conf": 0.4956,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9957,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸鸡翅\":{\"食品组成\": [\"鸡肉\", \"面粉\", \"油\"]}\n    },\n    \"酱料\":{\"食品组成\": [\"酱料\"]}\n}\n```",
+        "final_fusion_pred": "炸鸡翅"
+    },
+    "data\\food-101\\images\\churros\\3308027.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9998,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[\"面团\", \"油\"]},\n        \"糖浆\":{\"食品组成\":[\"糖\", \"水\"]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\3323014.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.7133,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9997,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"油条\"]},\n        \"羊角面包\":{\"食品组成\": [\"羊角面包\"]},\n        \"咖啡\":{\"食品组成\": [\"咖啡\"]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\3334959.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    },\n    \"饮料\":{\"食品组成\": [\"酱油\"]}\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\3344684.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"咖啡\":{\"食品组成\": [\"咖啡粉\", \"水\"]},\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "coffee"
+    },
+    "data\\food-101\\images\\churros\\3344709.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]}\n    },\n    \"饮料\": {\n        \"咖啡\":{\"食品组成\": [\"咖啡豆\", \"水\"]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\3353827.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\"]}\n    },\n    \"饮品\": {\n        \"咖啡\":{\"食品组成\":[]},\n        \"奶茶\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\3357193.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\3369165.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9993,
+        "cloud_pred": 22,
+        "cloud_conf": 0.7052,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\", \"巧克力酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\3417372.jpg": {
+        "true_label": 23,
+        "edge_pred": 6,
+        "edge_conf": 0.9095,
+        "cloud_pred": 6,
+        "cloud_conf": 0.9854,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油炸糕点\":{\"食品组成\":[\"油炸糕点\", \"糖粉\", \"巧克力酱\", \"奶油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnuts"
+    },
+    "data\\food-101\\images\\churros\\3417598.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]}\n    },\n    \"饮料\":{\"食品组成\": [\"咖啡\"]}\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\3429460.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9965,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\"]},\n        \"巧克力\":{\"食品组成\":[\"巧克力\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\3430758.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9998,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    },\n    \"甜品\":{\"食品组成\": [\"糖浆\", \"红辣椒\"]}\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\3431478.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸薯条\":{\"食品组成\": [\"土豆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\3431480.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9959,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸糕\":{\"食品组成\": [\"面糊\", \"油\"]}\n    },\n    \"甜品\":{\"食品组成\": [\"巧克力酱\", \"奶油\"]}\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\3438481.jpg": {
+        "true_label": 23,
+        "edge_pred": 74,
+        "edge_conf": 0.8036,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9914,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"烤肉串\":{\"食品组成\":[\"肉串\", \"酱汁\"]}\n    }\n}\n```",
+        "final_fusion_pred": "kebab"
+    },
+    "data\\food-101\\images\\churros\\3453323.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.7201,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9834,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[\"面团\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\3479518.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9996,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9992,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\":[\"炸糕\", \"奶油\", \"巧克力酱\", \"樱桃\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\348715.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.989,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9889,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": [\n        \"筷子\":{\"食品组成\": [\"筷子\"]},\n        \"碗\":{\"食品组成\": [\"碗\"]},\n        \"盘子\":{\"食品组成\": [\"盘子\"]}\n    ]\n}\n```",
+        "final_fusion_pred": "chicken_wings"
+    },
+    "data\\food-101\\images\\churros\\3506336.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸薯条\":{\"食品组成\":[\"土豆\"]},\n        \"糖浆\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\3513246.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 0.998,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油炸糕点\":{\"食品组成\": [\"面团\", \"糖粉\"]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnuts"
+    },
+    "data\\food-101\\images\\churros\\3528308.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": [\n        \"炸鸡条\":{\"食品组成\": [\"鸡肉\", \"面包屑\"]}\n    ],\n    \"蘸酱\":{\"食品组成\": [\"巧克力酱\", \"辣椒酱\"]}\n}\n```",
+        "final_fusion_pred": "chicken_wings"
+    },
+    "data\\food-101\\images\\churros\\3531551.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[]}, \n        \"咖啡\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\3546196.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸饼\":{\"食品组成\":[\"面团\", \"油\"]}\n    },\n    \"配菜\":{\"食品组成\":[\"酱料\"]}\n}\n```",
+        "final_fusion_pred": "炸饼"
+    },
+    "data\\food-101\\images\\churros\\3555428.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸薯条\":{\"食品组成\": [\"土豆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\3581080.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]}\n    },\n    \"配菜\":{\"食品组成\": [\"酱料\"]}\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\3593258.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[\"油条\"]},\n        \"巧克力\":{\"食品组成\":[\"巧克力\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\3593479.jpg": {
+        "true_label": 23,
+        "edge_pred": 6,
+        "edge_conf": 0.2905,
+        "cloud_pred": 23,
+        "cloud_conf": 0.7523,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"三明治\":{\"食品组成\":[\"面包片\", \"奶酪\", \"肉类\"]}\n    }\n}\n```",
+        "final_fusion_pred": "sandwich"
+    },
+    "data\\food-101\\images\\churros\\3641322.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\3673129.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9996,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9998,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": [\n        \"炸洋葱圈\":{\"食品组成\":[]}\n    ]\n}\n```",
+        "final_fusion_pred": "onion_rings"
+    },
+    "data\\food-101\\images\\churros\\3693400.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.6265,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"面粉\", \"黄油\", \"糖粉\"]}, \n        \"巧克力酱\":{\"食品组成\":[\"可可\", \"糖\", \"脂肪\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_sauce"
+    },
+    "data\\food-101\\images\\churros\\3698417.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9718,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": [\n        \"油条\":{\"食品组成\":[]}\n    ]\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\3700970.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9999,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸薯条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\3716210.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.6959,
+        "cloud_pred": 23,
+        "cloud_conf": 0.4539,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸薯条\":{\"食品组成\":[\"土豆\", \"油\"]},\n        \"蘸酱\":{\"食品组成\":[\"酱料\"]},\n        \"装饰\":{\"食品组成\":[\"小番茄\", \"香菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\3781999.jpg": {
+        "true_label": 23,
+        "edge_pred": 42,
+        "edge_conf": 0.5268,
+        "cloud_pred": 6,
+        "cloud_conf": 0.3411,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸糕\":{\"食品组成\":[\"面团\", \"油\", \"巧克力酱\", \"糖粉\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\3799876.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\3809327.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.407,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9859,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\3819477.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9955,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸糕\":{\"食品组成\": [\"面团\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\3835021.jpg": {
+        "true_label": 23,
+        "edge_pred": 68,
+        "edge_conf": 0.5418,
+        "cloud_pred": 23,
+        "cloud_conf": 0.7596,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸鸡翅\":{\"食品组成\": [\"鸡肉\", \"面包屑\"]},\n        \"糖浆裹的炸物\":{\"食品组成\": [\"未知食材\", \"糖浆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸鸡翅"
+    },
+    "data\\food-101\\images\\churros\\384446.jpg": {
+        "true_label": 23,
+        "edge_pred": 31,
+        "edge_conf": 0.4581,
+        "cloud_pred": 6,
+        "cloud_conf": 0.8483,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": [\n        \"油炸糕点\":{\"食品组成\": [\"面团\", \"糖粉\", \"油\"]}\n    ]\n}\n```",
+        "final_fusion_pred": "doughnuts"
+    },
+    "data\\food-101\\images\\churros\\3847691.jpg": {
+        "true_label": 23,
+        "edge_pred": 6,
+        "edge_conf": 0.7886,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9966,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\"]},\n        \"巧克力酱\":{\"食品组成\":[\"巧克力\"]},\n        \"冰淇淋\":{\"食品组成\":[\"冰淇淋\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\3853943.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9997,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸薯条\":{\"食品组成\": [\"土豆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\3855783.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9591,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"面包\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "bread"
+    },
+    "data\\food-101\\images\\churros\\3882299.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\3882570.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"黄油\", \"鸡蛋\", \"盐\"]},\n        \"可可酱\":{\"食品组成\": [\"可可粉\", \"糖\", \"牛奶\"]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnuts"
+    },
+    "data\\food-101\\images\\churros\\3905690.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[\"面团\", \"油\"]}\n    },\n    \"配菜\":{\"食品组成\":[\"巧克力酱\"]}\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\439764.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9261,
+        "cloud_pred": 92,
+        "cloud_conf": 0.8666,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸薯条\":{\"食品组成\": [\"土豆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\450253.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.6369,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9958,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸糕\":{\"食品组成\":[\"面糊\", \"油\"]},\n        \"冰激凌\":{\"食品组成\":[\"奶油\", \"糖浆\"]},\n        \"草莓\":{\"食品组成\":[\"草莓\"]},\n        \"薄荷叶\":{\"食品组成\":[\"薄荷叶\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\454763.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9808,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9935,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \" madeleines\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "madeleines"
+    },
+    "data\\food-101\\images\\churros\\456796.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\467000.jpg": {
+        "true_label": 23,
+        "edge_pred": 36,
+        "edge_conf": 0.6289,
+        "cloud_pred": 36,
+        "cloud_conf": 0.4926,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸鸡翅\":{\"食品组成\":[\"鸡肉\", \"面包屑\"]}\n    }\n}\n```",
+        "final_fusion_pred": "fried_chicken_wing"
+    },
+    "data\\food-101\\images\\churros\\471940.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\476828.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]}\n    },\n    \"饮品\":{\"食品组成\": [\"咖啡\"]}\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\498323.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\": [\"面团\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\499620.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸薯条\":{\"食品组成\": [\"土豆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\509888.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"面粉\", \"黄油\", \"鸡蛋\", \"盐\"]}\n    },\n    \"配菜\":{\"食品组成\":[\"酱油\", \"醋\"]}\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\514833.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\"]},\n        \"巧克力酱\":{\"食品组成\":[\"巧克力\", \"酱汁\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\518062.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.7616,
+        "cloud_pred": 23,
+        "cloud_conf": 0.8895,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\": [\"油条\"]},\n        \"巧克力慕斯\":{\"食品组成\": [\"巧克力\", \"慕斯\"]},\n        \"奶油\":{\"食品组成\": [\"奶油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_mousse"
+    },
+    "data\\food-101\\images\\churros\\535346.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9996,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9685,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸糕\":{\"食品组成\":[\"面团\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\541601.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9703,
+        "cloud_pred": 23,
+        "cloud_conf": 0.716,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸糕\":{\"食品组成\":[\"炸糕\", \"奶油\", \"樱桃\", \"糖浆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\549805.jpg": {
+        "true_label": 23,
+        "edge_pred": 68,
+        "edge_conf": 0.9157,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9629,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸糕\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\553466.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9987,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸薯条\":{\"食品组成\": [\"土豆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\555011.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"鸡蛋\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\575541.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9999,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"churros\":{\"食品组成\":[\"churros\", \"whipped cream\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\592753.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[\"面团\", \"油\"]}\n    },\n    \"配菜\":{\"食品组成\":[\"糖浆\"]}\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\620340.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[]}, \n        \"咖啡\":{\"食品组成\":[\"咖啡粉\", \"水\"]}, \n        \"糖浆\":{\"食品组成\":[\"糖\", \"水\"]}\n    }\n}\n```",
+        "final_fusion_pred": "coffee"
+    },
+    "data\\food-101\\images\\churros\\625607.jpg": {
+        "true_label": 23,
+        "edge_pred": 57,
+        "edge_conf": 0.3927,
+        "cloud_pred": 23,
+        "cloud_conf": 0.4523,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"油条\"]},\n        \"炸薯片\":{\"食品组成\": [\"炸薯片\"]},\n        \"草莓\":{\"食品组成\": [\"草莓\"]},\n        \"炒谷物\":{\"食品组成\": [\"炒谷物\"]},\n        \"炒玉米\":{\"食品组成\": [\"炒玉米\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸薯片"
+    },
+    "data\\food-101\\images\\churros\\641534.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    },\n    \"饮料\":{\"食品组成\": [\"糖浆\"]}\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\645966.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸糕\":{\"食品组成\":[\"炸糕\"]}\n    },\n    \"配菜\":{\"食品组成\":[\"糖浆\", \"巧克力酱\"]}\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\654124.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[\"面团\", \"油\", \"糖粉\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\66098.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"鸡蛋\", \"糖浆\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\663566.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[]}, \n        \"咖啡\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\664049.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": [\n        \"薯条\":{\"食品组成\": [\"土豆\"]}\n    ],\n    \"调味品\": [\n        \"酱汁\":{\"食品组成\": []}\n    ]\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\681410.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]}\n    },\n    \"调料\": {\n        \"巧克力酱\":{\"食品组成\": []}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\696269.jpg": {
+        "true_label": 23,
+        "edge_pred": 78,
+        "edge_conf": 0.8097,
+        "cloud_pred": 100,
+        "cloud_conf": 0.5957,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸薯条\":{\"食品组成\":[\"土豆\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\churros\\712093.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": [\n        \"油条\":{\"食品组成\":[]}\n    ]\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\734186.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9885,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\"]}\n    },\n    \"饮料\":{\"食品组成\":[\"咖啡\"]}\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\776000.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.36,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9997,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸糕\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\787060.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"面团\", \"油\"]},\n        \"黑糖浆\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\802143.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\822977.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"油条\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\833252.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\"]},\n        \"巧克力酱\":{\"食品组成\":[\"巧克力\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\churros\\835912.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9862,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9966,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"炸鸡排\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "chicken_quesadilla"
+    },
+    "data\\food-101\\images\\churros\\841972.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9835,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品组成\": {\n        \"油条\":{\"食品组成\": [\"面粉\", \"油\"]},\n        \"咖啡\":{\"食品组成\": [\"咖啡豆\", \"水\"]},\n        \"牛奶\":{\"食品组成\": [\"牛奶\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\855705.jpg": {
+        "true_label": 23,
+        "edge_pred": 40,
+        "edge_conf": 0.421,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9502,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\864848.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9996,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸糕\":{\"食品组成\": [\"面团\", \"糖\"]}\n    }\n}\n```",
+        "final_fusion_pred": "炸糕"
+    },
+    "data\\food-101\\images\\churros\\878415.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[]}, \n        \"咖啡\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "doughnut"
+    },
+    "data\\food-101\\images\\churros\\879361.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9992,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\": [\"油条\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\884571.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\":[\"油条\"]},\n        \"巧克力酱\":{\"食品组成\":[\"巧克力酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_mousse"
+    },
+    "data\\food-101\\images\\churros\\890058.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9991,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9998,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[\"面团\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\904526.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9996,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"油条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\937430.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9991,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"麻花\":{\"食品组成\": [\"面粉\", \"油\", \"花椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "churros"
+    },
+    "data\\food-101\\images\\churros\\938480.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.99,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"油条\":{\"食品组成\": [\"面团\", \"油\"]},\n        \"巧克力酱\":{\"食品组成\": [\"可可粉\", \"糖\", \"牛奶\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_sauce"
+    },
+    "data\\food-101\\images\\churros\\95272.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 0.9834,
+        "cloud_pred": 23,
+        "cloud_conf": 0.9993,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸洋葱圈\":{\"食品组成\": [\"洋葱\", \"面粉\", \"油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "onion_rings"
+    },
+    "data\\food-101\\images\\churros\\982131.jpg": {
+        "true_label": 23,
+        "edge_pred": 23,
+        "edge_conf": 1.0,
+        "cloud_pred": 23,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"薯条\":{\"食品组成\":[\"土豆\"]},\n        \"巧克力酱\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1000486.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9996,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"蘑菇汤\":{\"食品组成\":[\"蘑菇\", \"洋葱\", \"酱汁\"]}\n    }\n}\n```",
+        "final_fusion_pred": "cream_of_mushroom_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1004564.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9692,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9959,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"乌冬面\":{\"食品组成\":[\"面条\", \"汤底\", \"酱油\", \"葱花\", \"黑芝麻\"]}\n    }\n}\n```",
+        "final_fusion_pred": "udon"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1011278.jpg": {
+        "true_label": 54,
+        "edge_pred": 35,
+        "edge_conf": 0.6811,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤品\":{\"食品组成\":[\"蔬菜\", \"肉片\"]}\n    }\n}\n```",
+        "final_fusion_pred": "french_onion_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1029400.jpg": {
+        "true_label": 54,
+        "edge_pred": 45,
+        "edge_conf": 0.755,
+        "cloud_pred": 23,
+        "cloud_conf": 0.5972,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"蔬菜汤\":{\"食品组成\":[\"胡萝卜\", \"玉米笋\", \"豆腐\"]}\n    }\n}\n```",
+        "final_fusion_pred": "vegetable_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1044215.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9989,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"胡萝卜\", \"鸡肉\", \"豆腐\", \"面条\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1059163.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": [\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"调味料\"]}\n    ]\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1063800.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9984,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"牛肉面\":{\"食品组成\":[\"面条\", \"牛肉\", \"辣椒酱\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "beef_carpaccio"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1069789.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9997,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"鸡蛋\", \"辣椒酱\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1071376.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.8852,
+        "cloud_pred": 54,
+        "cloud_conf": 0.4603,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"豆腐\", \"胡萝卜\", \"木耳\", \"面条\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1083094.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"鸡蛋\", \"胡萝卜\", \"青菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1084544.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9984,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"豆腐皮\", \"辣椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1096438.jpg": {
+        "true_label": 54,
+        "edge_pred": 64,
+        "edge_conf": 0.3955,
+        "cloud_pred": 41,
+        "cloud_conf": 0.4832,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"蘑菇汤\":{\"食品组成\":[\"蘑菇\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "mushroom_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\111951.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9993,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤\":{\"食品组成\":[\"竹笋\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "spring_rolls"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1122875.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9952,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤面\":{\"食品组成\":[\"面条\", \"酸辣汤底\", \"葱花\", \"花椒粉\"]}\n    }\n}\n```",
+        "final_fusion_pred": "spaghetti_carbonara"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1134579.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9961,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"面条\", \"酸辣汤汁\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1170826.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9911,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9983,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1174008.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9998,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"胡萝卜\", \"木耳\", \"豆腐\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1182141.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9565,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chicken_curry"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1186882.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9824,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9998,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"鸡肉汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chicken_curry"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1187107.jpg": {
+        "true_label": 54,
+        "edge_pred": 75,
+        "edge_conf": 0.8983,
+        "cloud_pred": 75,
+        "cloud_conf": 0.75,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"面条\", \"青豆\", \"胡萝卜\", \"洋葱\", \"辣椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\119171.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9993,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1202090.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9975,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"木耳\", \"辣椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1204493.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9993,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"汤\":{\"食品组成\":[\"酱油\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "miso_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1214786.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"土豆\", \"青豆\", \"辣椒油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1239660.jpg": {
+        "true_label": 54,
+        "edge_pred": 75,
+        "edge_conf": 0.8008,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9875,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1241115.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9353,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"豆腐皮\", \"青葱\", \"辣椒油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1242671.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9358,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"肉片\", \"蔬菜\", \"酸辣酱汁\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1245779.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.8771,
+        "cloud_pred": 54,
+        "cloud_conf": 0.987,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"白菜\", \"胡萝卜\", \"木耳\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1250032.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.6667,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"辣椒\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1265463.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.7953,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9998,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"辣椒\", \"葱\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1281127.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9993,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1285071.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1312635.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9839,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"红烧肉\":{\"食品组成\":[\"猪肉\", \"酱油\", \"糖\", \"料酒\", \"八角\", \"桂皮\", \"香叶\", \"姜片\", \"葱结\"]}\n    }\n}\n```",
+        "final_fusion_pred": "pork_chop"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1327716.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"木耳\", \"胡萝卜\", \"豆腐干\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1335587.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.5949,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"胡萝卜\", \"木耳\", \"豆腐\", \"葱\"]}}\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1336784.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9995,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"牛肉\", \"蔬菜\", \"辣椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1345463.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9998,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"蔬菜汤\":{\"食品组成\":[\"菠菜\", \"豆腐干\"]}\n    }\n}\n```",
+        "final_fusion_pred": "spinach"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1358064.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.999,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9995,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"白菜\", \"辣椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1364912.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9986,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"麻辣烫\":{\"食品组成\":[\"牛肉\", \"鸡肉\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "麻辣烫"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1375676.jpg": {
+        "true_label": 54,
+        "edge_pred": 75,
+        "edge_conf": 0.6314,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9885,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"红烧肉汤\":{\"食品组成\":[\"猪肉\", \"酱油\", \"葱\", \"姜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "pork_chop"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1384548.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9953,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9998,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"面条\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1397042.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9994,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"竹笋\", \"辣椒酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1412138.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9932,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"汤\":{\"食品组成\":[\"豆腐\", \"蘑菇\"]}\n    }\n}\n```",
+        "final_fusion_pred": "miso_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1425396.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9655,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤品\":{\"食品组成\":[\"蘑菇\", \"蔬菜\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "mushroom_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1431464.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.997,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9719,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"鸡蛋\", \"辣椒\", \"花椒\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1441301.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"面条\", \"蔬菜\", \"调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1476813.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9998,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"红烧肉汤\":{\"食品组成\":[\"猪肉\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "pork_chop"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\149080.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"白菜\", \"木耳\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1502582.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣酱汁\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1519845.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"面条\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1544940.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9998,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"面条\", \"胡萝卜\", \"青菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1548700.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"鸡肉汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chicken_curry"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1555498.jpg": {
+        "true_label": 54,
+        "edge_pred": 41,
+        "edge_conf": 0.3281,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"鸡蛋\", \"辣椒\", \"醋\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1557701.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9991,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"面条\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1559644.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蘑菇\", \"辣椒\", \"醋\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1563900.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.987,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1578999.jpg": {
+        "true_label": 54,
+        "edge_pred": 80,
+        "edge_conf": 0.4608,
+        "cloud_pred": 75,
+        "cloud_conf": 0.4268,
+        "qwen_ingredients": "```json\n{\n    \"食品组成\": [\n        \"汤类\":{\"食品组成\":[\"牛肉\", \"蔬菜\", \"汤底\"]},\n        \"炸物\":{\"食品组成\":[\"薯条\"]},\n        \"糕点\":{\"食品组成\":[\"春卷\"]}\n    ]\n}\n```",
+        "final_fusion_pred": "spring_rolls"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1583224.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9993,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"蔬菜汤\":{\"食品组成\":[\"胡萝卜\", \"土豆\", \"洋葱\", \"蘑菇\"]}\n    }\n}\n```",
+        "final_fusion_pred": "vegetable_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1592129.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"木耳\", \"胡萝卜\", \"青菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\160890.jpg": {
+        "true_label": 54,
+        "edge_pred": 81,
+        "edge_conf": 0.5459,
+        "cloud_pred": 54,
+        "cloud_conf": 0.6092,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"豆腐汤\":{\"食品组成\":[\"豆腐\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "tofu_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1620501.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"牛肉\", \"豆腐\", \"胡萝卜\", \"木耳\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1624423.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9987,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1628455.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"香料茶\":{\"食品组成\":[\"茶叶\", \"桂皮\", \"香叶\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chai"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1634493.jpg": {
+        "true_label": 54,
+        "edge_pred": 82,
+        "edge_conf": 0.4647,
+        "cloud_pred": 75,
+        "cloud_conf": 0.9255,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"蔬菜汤\":{\"食品组成\":[\"黄瓜片\", \"胡萝卜片\", \"青豆荚\", \"香菜叶\"]}\n    }\n}\n```",
+        "final_fusion_pred": "vegetable_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1654702.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9896,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9996,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"白菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1665790.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9688,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9933,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"蛋花汤\":{\"食品组成\":[\"鸡蛋\", \"水\", \"葱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "egg_drop_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1708926.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9419,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9981,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"红烧肉汤\":{\"食品组成\":[\"猪肉\", \"酱油\", \"葱\", \"姜\", \"料酒\", \"八角\", \"桂皮\", \"香叶\", \"盐\"]},\n        \"炸薯条\":{\"食品组成\":[\"土豆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "pork_chop"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1709968.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9998,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"木耳\", \"辣椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1710668.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"豆腐\", \"胡萝卜\", \"青椒\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\171208.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9988,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9952,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"木耳\", \"胡萝卜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1719651.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.4451,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤\":{\"食品组成\":[\"豆腐\", \"鸡蛋\", \"高汤\"]}\n    }\n}\n```",
+        "final_fusion_pred": "egg_roll"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\172037.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"木耳\", \"辣椒\", \"醋\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1732642.jpg": {
+        "true_label": 54,
+        "edge_pred": 56,
+        "edge_conf": 0.49,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"辣椒\", \"醋\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1764754.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9929,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"麻辣汤\":{\"食品组成\":[\"辣椒\", \"花椒\", \"葱花\", \"姜片\"]}\n    }\n}\n```",
+        "final_fusion_pred": "spaghetti_bolognese"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1764850.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9812,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9998,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1782992.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9728,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蘑菇\", \"青豆\", \"鸡蛋\", \"高汤\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1819921.jpg": {
+        "true_label": 54,
+        "edge_pred": 81,
+        "edge_conf": 0.6237,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9823,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"乌冬面\":{\"食品组成\":[\"面条\", \"汤底\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "udon"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1827082.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9932,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9731,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸菜白肉汤\":{\"食品组成\":[\"酸菜\", \"猪肉\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "sauerkraut"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1827703.jpg": {
+        "true_label": 54,
+        "edge_pred": 18,
+        "edge_conf": 0.4415,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9487,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"蟹肉豆腐汤\":{\"食品组成\":[\"豆腐\", \"蟹肉\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "crab_cakes"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1851758.jpg": {
+        "true_label": 54,
+        "edge_pred": 40,
+        "edge_conf": 0.3764,
+        "cloud_pred": 40,
+        "cloud_conf": 0.9537,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"炸饼\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "炸饼"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1864685.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.5138,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"肉片\", \"木耳\", \"豆腐\", \"辣椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1885783.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"豆腐皮\", \"辣椒\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1938894.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.8045,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9855,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"蔬菜汤\":{\"食品组成\":[\"胡萝卜\", \"洋葱\", \"菠菜\", \"豆腐\", \"蘑菇\"]}\n    }\n}\n```",
+        "final_fusion_pred": "vegetable_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1955928.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.8173,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\1960553.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9993,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9998,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"豆腐汤\":{\"食品组成\":[\"豆腐\", \"肉片\", \"高汤\"]}\n    }\n}\n```",
+        "final_fusion_pred": "tofu_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\197192.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.7161,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9955,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"红烧肉\":{\"食品组成\":[\"猪肉\", \"酱油\", \"葱\", \"姜\", \"料酒\", \"八角\", \"桂皮\", \"香叶\", \"老抽\", \"生抽\", \"糖\", \"盐\", \"清水\"]}\n    }\n}\n```",
+        "final_fusion_pred": "pork_chop"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2005531.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9978,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2041812.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9998,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"辣椒\", \"醋\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2060366.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9992,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"豆腐\", \"木耳\", \"胡萝卜\", \"葱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2071993.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"豆腐\", \"鸡肉\", \"辣椒酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2088090.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9924,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9997,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"茶\":{\"食品组成\": [\"茶叶\"]}\n    }\n}\n```",
+        "final_fusion_pred": "tea"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\212229.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2152728.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9986,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"辣椒\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2155459.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9995,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"面条\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2227476.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9985,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\223646.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9998,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"木耳\", \"面条\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2278783.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9998,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2312653.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"豆腐汤\":{\"食品组成\":[\"豆腐\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "tofu_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2316956.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"木耳\", \"胡萝卜\", \"豆腐\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\23229.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9794,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\232470.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9995,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2340160.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.7402,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": [\n        \"牛肉面\":{\"食品组成\":[\"牛肉\", \"面条\", \"蔬菜\"]}, \n        \"炒面\":{\"食品组成\":[\"炒面\", \"蔬菜\"]}\n    ]\n}\n```",
+        "final_fusion_pred": "beef_noodle_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2342851.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9997,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}, \n        \"薯片\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2342896.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.7988,
+        "cloud_pred": 71,
+        "cloud_conf": 0.674,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"蘑菇汤\":{\"食品组成\":[\"蘑菇\"]}\n    }\n}\n```",
+        "final_fusion_pred": "mushroom_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2344945.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9998,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2364496.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9983,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"豆腐\", \"辣椒粉\", \"醋\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2371233.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9985,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"豆腐皮\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2377494.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"土豆\", \"胡萝卜\", \"蘑菇\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2377753.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9995,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"豆腐皮\", \"胡萝卜\", \"青蒜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2415615.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"胡萝卜\", \"豆腐\", \"辣椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2483481.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.8137,
+        "cloud_pred": 54,
+        "cloud_conf": 0.6753,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"甜品\":{\"食品组成\":[\"巧克力\", \"奶油\", \"糖浆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chocolate_cake"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2500614.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9998,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"红烧肉\":{\"食品组成\":[\"猪肉\", \"酱油\", \"糖\", \"姜片\", \"葱段\"]}\n    }\n}\n```",
+        "final_fusion_pred": "pork_chop"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2501632.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9995,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"辣椒油\", \"醋\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2517440.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"胡萝卜\", \"鸡肉\", \"面条\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2520927.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9998,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2524133.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.999,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"木耳\", \"鸡蛋\", \"辣椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2524577.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"牛肉\", \"豆腐\", \"胡萝卜\", \"青菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2550332.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9686,
+        "cloud_pred": 75,
+        "cloud_conf": 0.5672,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤面\":{\"食品组成\":[\"面条\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "spaghetti_bolognese"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2554577.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2555526.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9995,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"面条\", \"胡萝卜\", \"青菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2569933.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.687,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9879,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"红汤面\":{\"食品组成\":[\"面条\", \"红汤\", \"豆芽\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "ramen"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2575362.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9945,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤品\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chicken_curry"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2586074.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9167,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9004,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤\":{\"食品组成\":[\"蔬菜\", \"肉类\"]}\n    }\n}\n```",
+        "final_fusion_pred": "wonton_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2637933.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2643076.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.7446,
+        "cloud_pred": 88,
+        "cloud_conf": 0.6299,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"面条\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2657713.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.7012,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9555,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"豆腐\", \"白菜\", \"胡萝卜\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2688464.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"豆腐皮\", \"木耳\", \"青蒜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2706595.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9954,
+        "cloud_pred": 54,
+        "cloud_conf": 0.884,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"豆腐\", \"木耳\", \"肉片\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2723562.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9988,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"胡萝卜\", \"木耳\", \"面条\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2730164.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9844,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤\":{\"食品组成\":[\"汤底\", \"鸡蛋\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "egg"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2744289.jpg": {
+        "true_label": 54,
+        "edge_pred": 64,
+        "edge_conf": 0.6875,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9994,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蘑菇\", \"胡萝卜\", \"青菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2760407.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"面条\", \"辣椒\", \"醋\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2783901.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": [\n        \"汤\":{\"食品组成\":[\"酱油\", \"鸡肉\", \"蔬菜\"]}\n    ]\n}\n```",
+        "final_fusion_pred": "chicken_curry"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2786483.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9994,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"麻婆豆腐\":{\"食品组成\":[\"豆腐\", \"豆瓣酱\", \"花椒\", \"辣椒\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "mapo_tofu"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2786540.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9992,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸菜鱼\":{\"食品组成\":[\"酸菜\", \"鱼\", \"胡萝卜\", \"豆腐\", \"辣椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸菜鱼"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\278768.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"白菜\", \"豆腐\", \"面条\", \"汤汁\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2790483.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9996,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"面条\", \"鸡肉\", \"葱花\", \"辣椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2792993.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9998,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"木耳\", \"青菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2799551.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.5352,
+        "cloud_pred": 81,
+        "cloud_conf": 0.7126,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"方便面\":{\"食品组成\":[\"面条\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "instant_noodles"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2828139.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9991,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": \"蔬菜汤\",\n    \"食品组成\": {\n        \"胡萝卜\":{\"食品组成\": [\"胡萝卜\"]},\n        \"洋葱\":{\"食品组成\": [\"洋葱\"]},\n        \"青椒\":{\"食品组成\": [\"青椒\"]},\n        \"豆腐\":{\"食品组成\": [\"豆腐\"]}\n    }\n}\n```",
+        "final_fusion_pred": "vegetable_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2839769.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"鸡蛋\", \"辣椒\", \"醋\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2843321.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤品\":{\"食品组成\":[\"豆腐\", \"肉片\"]}\n    }\n}\n```",
+        "final_fusion_pred": "wonton_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2843809.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"豆腐\", \"胡萝卜\", \"青菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2845105.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9995,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"木耳\", \"胡萝卜\", \"青菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2846029.jpg": {
+        "true_label": 54,
+        "edge_pred": 31,
+        "edge_conf": 0.3741,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9906,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"芝麻酱汤\":{\"食品组成\":[\"芝麻\", \"花生米\", \"辣椒\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "sesame_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\285163.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9991,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"金针菇\", \"豆腐皮\", \"辣椒酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2853540.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.7579,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9782,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"豆腐汤\":{\"食品组成\":[\"豆腐\", \"蔬菜\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "tofu_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2855699.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9993,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"汤\":{\"食品组成\":[\"豆腐皮\", \"蔬菜\"]}, \n        \"米饭\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "sushi"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2860181.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.8154,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2874993.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9962,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸菜粉丝\":{\"食品组成\":[\"酸菜\", \"粉丝\"]}\n    }\n}\n```",
+        "final_fusion_pred": "spring_rolls"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2887780.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9995,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2900050.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9984,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"面条\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2907564.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"蘑菇汤\":{\"食品组成\":[\"蘑菇\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "mushroom_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2936421.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9992,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"面条\", \"辣椒\", \"花椒\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2941351.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9996,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2943259.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2958980.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2963005.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2980971.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"豆腐\", \"鸡肉\", \"辣椒\", \"醋\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\2997208.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9857,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤品\":{\"食品组成\":[\"肉片\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "beef_carpaccio"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3033019.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"豆腐\", \"青蒜\", \"辣椒油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3045408.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9988,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"蘑菇汤\":{\"食品组成\":[\"蘑菇\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "cream_of_mushroom_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3049467.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9105,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"豆腐\", \"胡萝卜\", \"木耳\", \"葱段\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3057104.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣酱汁\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3067041.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9963,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9985,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"木耳\", \"胡萝卜\", \"青葱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3084398.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"白菜\", \"胡萝卜\", \"辣椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3086949.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9937,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"面条\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3108998.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9942,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9961,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3113531.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9993,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3125329.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.6035,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9997,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\314042.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9996,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chicken_curry"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3174858.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9989,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"豆腐\", \"鸡肉\", \"葱\", \"辣椒油\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3177114.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9959,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"豆腐皮\", \"辣椒酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3191313.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"豆腐\", \"木耳\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3204149.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"面条\", \"酸辣酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3336712.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9984,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"红烧肉\":{\"食品组成\":[\"猪肉\", \"酱油\", \"料酒\", \"姜片\", \"葱段\"]}\n    }\n}\n```",
+        "final_fusion_pred": "pork_chop"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3359445.jpg": {
+        "true_label": 54,
+        "edge_pred": 44,
+        "edge_conf": 0.3403,
+        "cloud_pred": 7,
+        "cloud_conf": 0.7042,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"红烧肉\":{\"食品组成\":[\"猪肉\", \"酱油\", \"糖\", \"料酒\", \"八角\", \"桂皮\", \"香叶\", \"姜片\", \"葱结\"]}\n    }\n}\n```",
+        "final_fusion_pred": "pork_chop"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3382309.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"豆腐皮\", \"青菜\", \"调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3384988.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9812,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"面条\", \"胡萝卜\", \"鸡肉\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\340111.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9987,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"蛋花汤\":{\"食品组成\":[\"鸡蛋\", \"葱\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "egg_drop_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3420160.jpg": {
+        "true_label": 54,
+        "edge_pred": 75,
+        "edge_conf": 0.8852,
+        "cloud_pred": 75,
+        "cloud_conf": 0.621,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤品\":{\"食品组成\":[\"面条\", \"柠檬片\", \"胡萝卜片\", \"香菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "pho"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3428336.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9925,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chicken_curry"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3437487.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9968,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3464402.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": [\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}\n    ]\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3477650.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9416,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"红烧肉\":{\"食品组成\":[\"猪肉\", \"酱油\", \"料酒\", \"八角\", \"桂皮\", \"香叶\", \"姜片\", \"葱结\"]}\n    }\n}\n```",
+        "final_fusion_pred": "pork_chop"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3480826.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"麻婆豆腐\":{\"食品组成\":[\"豆腐\", \"牛肉末\", \"豆瓣酱\", \"花椒粉\", \"葱花\"]}\n    }\n}\n```",
+        "final_fusion_pred": "mapo_tofu"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3491258.jpg": {
+        "true_label": 54,
+        "edge_pred": 64,
+        "edge_conf": 0.4924,
+        "cloud_pred": 60,
+        "cloud_conf": 0.695,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤\":{\"食品组成\":[\"鸡肉\", \"高汤\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chicken_curry"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\350818.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9981,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": [\n        \"汤\":{\"食品组成\":[\"蘑菇\", \"肉片\", \"蔬菜\"]}\n    ]\n}\n```",
+        "final_fusion_pred": "miso_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3509546.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9973,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤\":{\"食品组成\":[\"胡萝卜\", \"蘑菇\"]}\n    }\n}\n```",
+        "final_fusion_pred": "carrot_cake"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3519380.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9296,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3522737.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9978,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3523658.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9997,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"豆腐\", \"鸡肉\", \"辣椒酱\", \"醋\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3551753.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3552976.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9981,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3565393.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9923,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"胡萝卜\", \"蘑菇\", \"青豆\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3568665.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3600926.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9869,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9998,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"竹笋汤\":{\"食品组成\":[\"竹笋\", \"蘑菇\"]}\n    }\n}\n```",
+        "final_fusion_pred": "spring_rolls"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\360709.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9884,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9944,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"木耳\", \"胡萝卜\", \"辣椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3614783.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9988,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"鸡蛋\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3637940.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.6602,
+        "cloud_pred": 13,
+        "cloud_conf": 0.3539,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"蘑菇汤\":{\"食品组成\":[\"蘑菇\", \"番茄\", \"香菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "cream_of_mushroom_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3658920.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9992,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"红色汤底汤品\":{\"食品组成\":[\"豆腐\", \"胡萝卜\", \"其他蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "ramen"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3662301.jpg": {
+        "true_label": 54,
+        "edge_pred": 41,
+        "edge_conf": 0.5104,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9531,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"红烧肉酱\":{\"食品组成\":[\"猪肉\", \"酱油\", \"糖\", \"姜片\", \"葱段\"]}\n    }\n}\n```",
+        "final_fusion_pred": "pork_chop"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3667107.jpg": {
+        "true_label": 54,
+        "edge_pred": 81,
+        "edge_conf": 0.7481,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9991,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"猪肉\", \"白菜\", \"胡萝卜\", \"葱\", \"辣椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3701540.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9983,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"豆腐\", \"胡萝卜\", \"鸡肉\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3703194.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"白菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3723021.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.7413,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\373196.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9995,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3736842.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9996,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": [\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}, \n        \"清汤\":{\"食品组成\":[\"蔬菜\", \"清汤底料\"]}\n    ]\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3794739.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9983,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"木耳\", \"豆腐\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3824462.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"胡萝卜\", \"青菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3824797.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9999,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\382979.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9998,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3831832.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9954,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9939,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"白菜\", \"辣椒\", \"醋\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\3859723.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9973,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9988,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"饺子汤\":{\"食品组成\":[\"饺子\", \"汤汁\"]}\n    }\n}\n```",
+        "final_fusion_pred": "dumplings"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\406167.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9848,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9819,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"酸菜\", \"辣椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\406301.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9909,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"豆腐\", \"面条\", \"酸菜\", \"辣椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\43662.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9981,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"豆腐皮\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\446205.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.5901,
+        "cloud_pred": 54,
+        "cloud_conf": 0.8715,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"汤\":{\"食品组成\":[\"豆腐\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "wonton_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\519083.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\520049.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9937,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"汤\":{\"食品组成\":[\"豆腐\", \"白菜\", \"蘑菇\"]}\n    }\n}\n```",
+        "final_fusion_pred": "won_ton_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\540927.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"面条\", \"鸡肉\", \"蘑菇\", \"辣椒\", \"花椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\54981.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9997,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}, \n        \"炸薯条\":{\"食品组成\":[]}\n    }\n}\n```",
+        "final_fusion_pred": "french_fries"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\563390.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9983,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9995,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"蘑菇汤\":{\"食品组成\":[\"蘑菇\", \"蔬菜\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "cream_of_mushroom_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\579593.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\58270.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9978,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"豆腐皮\", \"辣椒\", \"醋\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\583805.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9117,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"豆腐皮\", \"胡萝卜\", \"青葱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\602404.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9962,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"红烧肉汤\":{\"食品组成\":[\"红烧肉\", \"蔬菜\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "pork_chop"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\607274.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9559,
+        "cloud_pred": 54,
+        "cloud_conf": 0.992,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"木耳\", \"辣椒酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\615327.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9977,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"牛肉片\", \"鸡蛋\", \"辣椒酱\", \"香菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\619528.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡蛋\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\676481.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9997,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"辣椒酱\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\676957.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.6111,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9361,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": [\n        \"汤\":{\"食品组成\":[\"牛肉\", \"豆腐\", \"蔬菜\"]}\n    ]\n}\n```",
+        "final_fusion_pred": "beef_carpaccio"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\70230.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9969,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9651,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤面\":{\"食品组成\":[\"面条\", \"蔬菜\", \"调料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "spaghetti_carbonara"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\723517.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9938,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\725764.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9501,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"黑糯米甜汤\":{\"食品组成\":[\"黑糯米\", \"糖\"]}\n    }\n}\n```",
+        "final_fusion_pred": "sticky_rice_pudding"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\748125.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9849,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9359,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": [\n        \"豆腐汤\":{\"食品组成\":[\"豆腐\", \"汤\"]}\n    ]\n}\n```",
+        "final_fusion_pred": "tofu_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\76066.jpg": {
+        "true_label": 54,
+        "edge_pred": 75,
+        "edge_conf": 0.7423,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9982,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤\":{\"食品组成\":[\"豆腐\", \"蘑菇\", \"青菜\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\781837.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9617,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"甜品\":{\"食品组成\":[\"南瓜泥\", \"红枣\", \"枸杞\"]}\n    }\n}\n```",
+        "final_fusion_pred": "pumpkin_pie"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\80443.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9998,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9964,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蘑菇\", \"青豆\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\80543.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.995,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"调味料\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\822546.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"豆腐汤\":{\"食品组成\":[\"豆腐\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "tofu_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\844286.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9454,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"白菜\", \"辣椒\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\882050.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9981,
+        "cloud_pred": 54,
+        "cloud_conf": 0.999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"蘑菇汤\":{\"食品组成\":[\"蘑菇\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "cream_of_mushroom_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\916951.jpg": {
+        "true_label": 54,
+        "edge_pred": 41,
+        "edge_conf": 0.5906,
+        "cloud_pred": 54,
+        "cloud_conf": 0.8086,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"红汤\":{\"食品组成\":[\"番茄\", \"洋葱\", \"香菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "spaghetti_bolognese"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\961824.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9983,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤\":{\"食品组成\":[\"豆腐\", \"蘑菇\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "miso_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\963551.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9976,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9992,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "chicken_curry"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\968546.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 1.0,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"蔬菜\", \"酸辣酱\"]}\n    }\n}\n```",
+        "final_fusion_pred": "酸辣汤"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\982582.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9996,
+        "cloud_pred": 54,
+        "cloud_conf": 1.0,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"酸辣汤\":{\"食品组成\":[\"鸡肉\", \"豆腐\", \"胡萝卜\", \"青菜\"]}\n    }\n}\n```",
+        "final_fusion_pred": "hot_and_sour_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\984258.jpg": {
+        "true_label": 54,
+        "edge_pred": 64,
+        "edge_conf": 0.5779,
+        "cloud_pred": 54,
+        "cloud_conf": 0.5723,
+        "qwen_ingredients": "```json\n{\n    \"食物名称\": {\n        \"豆腐汤\":{\"食品组成\":[\"豆腐\", \"汤底\"]}\n    }\n}\n```",
+        "final_fusion_pred": "tofu_soup"
+    },
+    "data\\food-101\\images\\hot_and_sour_soup\\998326.jpg": {
+        "true_label": 54,
+        "edge_pred": 54,
+        "edge_conf": 0.9963,
+        "cloud_pred": 54,
+        "cloud_conf": 0.9999,
+        "qwen_ingredients": "```json\n{\n    \"食品名称\": {\n        \"甜品\":{\"食品组成\":[\"红豆\", \"黑糖\"]}\n    }\n}\n```",
+        "final_fusion_pred": "red_bean_soup"
+    }
+}
