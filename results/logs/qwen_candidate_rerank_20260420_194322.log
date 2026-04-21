@@ -1,0 +1,4 @@
+2026-04-20 19:43:24,154 - INFO - Qwen 重排准备完成 | total=25250 | locked_skipped=0 | cached=22412 | rerank_queue=2838
+2026-04-20 19:43:24,154 - INFO - 加载 Qwen2.5-VL-3B，用于闭集候选重排...
+2026-04-20 21:57:14,082 - INFO - Qwen 重排完成 | processed=2838 | parse_modes={'regex_salvage': 2837, 'strict_json': 1} | success={'regex_salvage_success': 2837, 'strict_json_success': 1} | invalid={}
+2026-04-20 21:57:16,198 - INFO - Qwen 候选重排结果已保存至 ./results/qwen_rerank_results_v2_retry2838.json

@@ -1,0 +1,5 @@
+2026-04-20 19:39:09,641 - INFO - Retry cache reset prepared | invalid_reason=candidate_out_of_range | selected=20 | qwen_reset=20 | fusion_reset=20 | fusion_missing=0 | dry_run=False
+2026-04-20 19:39:09,641 - INFO - Retry key preview: data/food-101/images/churros/1168179.jpg, data/food-101/images/churros/1286743.jpg, data/food-101/images/churros/1560770.jpg
+2026-04-20 19:39:13,423 - INFO - Saved qwen retry file to ./results/qwen_rerank_results_v2_pilot20.json
+2026-04-20 19:39:13,423 - INFO - Saved fusion retry file to ./results/final_fusion_results_v2_pilot20.json
+2026-04-20 19:39:13,423 - INFO - Saved retry keys to ./results/retry_keys_pilot20.txt

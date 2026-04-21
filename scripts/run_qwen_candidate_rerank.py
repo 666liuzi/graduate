@@ -1,6 +1,7 @@
 import argparse
 import os
 import sys
+from collections import Counter
 
 import torch
 from PIL import Image
@@ -19,8 +20,10 @@ from utils.pipeline import (
     load_food101_classes,
     load_json,
     normalize_candidate_choice,
+    normalize_result_key,
     resolve_image_path,
     resize_image_to_max_pixels,
+    salvage_qwen_json_fields,
     save_json,
     should_flag_ood,
 )
@@ -40,7 +43,6 @@ def run_qwen_candidate_rerank(
     max_samples=None,
     logger=None,
 ):
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     if logger is None:
         logger = setup_logger("qwen_candidate_rerank")
 
@@ -48,28 +50,24 @@ def run_qwen_candidate_rerank(
     baseline_results = load_json(baseline_path)
     prototype_bank = load_json(prototype_path)
     saved_results = load_json(output_path) if os.path.exists(output_path) else {}
-
-    logger.info("加载 Qwen2.5-VL-3B，用于闭集候选重排...")
-    model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
-        model_dir,
-        torch_dtype=torch.bfloat16,
-        attn_implementation="flash_attention_2",
-        device_map="auto",
-    )
-    processor = AutoProcessor.from_pretrained(model_dir)
+    normalized_saved = {normalize_result_key(path): value for path, value in saved_results.items()}
 
     all_results = {}
-    processed = 0
-    for raw_img_path, sample in tqdm(baseline_results.items()):
-        cached = saved_results.get(raw_img_path)
+    rerank_queue = []
+    summary = Counter()
+
+    for raw_img_path, sample in baseline_results.items():
+        normalized_path = normalize_result_key(raw_img_path)
+        cached = normalized_saved.get(normalized_path)
         if cached and cached.get("qwen_completed"):
-            all_results[raw_img_path] = cached
+            all_results[normalized_path] = cached
+            summary["cached"] += 1
             continue
 
         candidate_entries = build_candidate_entries(sample, classes_list, max_candidates=6)
         cloud_candidate_key = find_candidate_key(candidate_entries, sample["cloud_pred"])
         if cloud_candidate_key is None:
-            all_results[raw_img_path] = _build_fallback_record(
+            all_results[normalized_path] = _build_fallback_record(
                 sample=sample,
                 raw_img_path=raw_img_path,
                 candidate_entries=candidate_entries,
@@ -77,6 +75,7 @@ def run_qwen_candidate_rerank(
                 invalid_reason="cloud_candidate_missing",
                 data_dir=data_dir,
             )
+            summary["fallback_missing_cloud_candidate"] += 1
             continue
 
         record = {
@@ -88,74 +87,85 @@ def run_qwen_candidate_rerank(
         }
 
         if sample.get("lockable") or sample.get("edge_pred") == sample.get("cloud_pred"):
-            record.update(
-                {
-                    "qwen_completed": True,
-                    "qwen_skipped": True,
-                    "qwen_invalid": False,
-                    "qwen_invalid_reason": "",
-                    "qwen_choice": cloud_candidate_key,
-                    "qwen_choice_label": classes_list[sample["cloud_pred"]],
-                    "candidate_support": {
-                        entry["key"]: 100 if entry["key"] == cloud_candidate_key else 0
-                        for entry in candidate_entries
-                    },
-                    "qwen_best_support": 100,
-                    "qwen_cloud_support": 100,
-                    "ood_score": 0,
-                    "ood_flag": False,
-                    "open_description": "",
-                    "visual_evidence": "edge/cloud top1 agree; rerank skipped",
-                    "qwen_raw_output": "",
-                }
-            )
-            all_results[raw_img_path] = record
-            processed += 1
-            if max_samples is not None and processed >= max_samples:
-                break
+            record.update(_build_locked_result(candidate_entries, cloud_candidate_key, classes_list[sample["cloud_pred"]]))
+            all_results[normalized_path] = record
+            summary["locked_skipped"] += 1
             continue
 
-        inference_result = _infer_qwen_choice(
-            model=model,
-            processor=processor,
-            raw_img_path=raw_img_path,
-            sample=sample,
-            candidate_entries=candidate_entries,
-            prototype_bank=prototype_bank,
-            data_dir=data_dir,
+        rerank_queue.append((normalized_path, record))
+
+    logger.info(
+        f"Qwen 重排准备完成 | total={len(baseline_results)} | locked_skipped={summary['locked_skipped']} | "
+        f"cached={summary['cached']} | rerank_queue={len(rerank_queue)}"
+    )
+
+    if rerank_queue:
+        logger.info("加载 Qwen2.5-VL-3B，用于闭集候选重排...")
+        model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+            model_dir,
+            torch_dtype=torch.bfloat16,
+            attn_implementation="flash_attention_2",
+            device_map="auto",
         )
-        record.update(inference_result)
-        all_results[raw_img_path] = record
-        processed += 1
+        processor = AutoProcessor.from_pretrained(model_dir)
 
-        if processed % 200 == 0:
-            save_json(all_results, output_path)
+        processed = 0
+        invalid_counter = Counter()
+        parse_mode_counter = Counter()
+        status_counter = Counter()
+        for normalized_path, record in tqdm(rerank_queue, total=len(rerank_queue), desc="Qwen rerank"):
+            inference_result = _infer_qwen_choice(
+                model=model,
+                processor=processor,
+                sample=record,
+                candidate_entries=record["candidate_entries"],
+                prototype_bank=prototype_bank,
+            )
+            record.update(inference_result)
+            all_results[normalized_path] = record
+            processed += 1
 
-        if max_samples is not None and processed >= max_samples:
-            break
+            parse_mode_counter[str(record.get("qwen_parse_mode", "unknown"))] += 1
+            if record.get("qwen_invalid"):
+                invalid_counter[str(record.get("qwen_invalid_reason", "unknown"))] += 1
+            elif record.get("qwen_parse_mode") == "strict_json":
+                status_counter["strict_json_success"] += 1
+            elif record.get("qwen_parse_mode") == "regex_salvage":
+                status_counter["regex_salvage_success"] += 1
+
+            if processed % 200 == 0:
+                save_json(all_results, output_path)
+
+            if max_samples is not None and processed >= max_samples:
+                break
+
+        logger.info(
+            f"Qwen 重排完成 | processed={processed} | parse_modes={dict(parse_mode_counter)} | "
+            f"success={dict(status_counter)} | invalid={dict(invalid_counter)}"
+        )
 
     save_json(all_results, output_path)
     logger.info(f"Qwen 候选重排结果已保存至 {output_path}")
     return all_results
 
 
-def _infer_qwen_choice(model, processor, raw_img_path, sample, candidate_entries, prototype_bank, data_dir):
-    cloud_candidate_key = find_candidate_key(candidate_entries, sample["cloud_pred"])
-    cloud_label = candidate_entries[ord(cloud_candidate_key) - ord("A")]["label"]
+def _infer_qwen_choice(model, processor, sample, candidate_entries, prototype_bank):
+    cloud_candidate_key = sample["cloud_candidate_key"]
+    cloud_label = next(entry["label"] for entry in candidate_entries if entry["key"] == cloud_candidate_key)
 
     try:
-        target_image = _load_resized_image(resolve_image_path(raw_img_path, data_dir=data_dir), 768 * 28 * 28)
+        target_image = _load_resized_image(sample["resolved_path"], 768 * 28 * 28)
         content = [
             {"type": "text", "text": _build_qwen_prompt(candidate_entries)},
             {"type": "image", "image": target_image},
-            {"type": "text", "text": "上图是目标图。下面依次提供每个候选类别的参考图。"},
+            {"type": "text", "text": "Target image. Prototype images follow by candidate order."},
         ]
 
         for entry in candidate_entries:
             content.append(
                 {
                     "type": "text",
-                    "text": f"候选 {entry['key']} = {entry['label']}。下面是该候选的 2 张参考图。",
+                    "text": f"Candidate {entry['key']} = {entry['label']}. Two prototype images follow.",
                 }
             )
             prototypes = prototype_bank[entry["label"]]["prototypes"][:2]
@@ -177,7 +187,7 @@ def _infer_qwen_choice(model, processor, raw_img_path, sample, candidate_entries
         with torch.no_grad():
             generated_ids = model.generate(
                 **inputs,
-                max_new_tokens=96,
+                max_new_tokens=160,
                 do_sample=False,
             )
 
@@ -190,19 +200,51 @@ def _infer_qwen_choice(model, processor, raw_img_path, sample, candidate_entries
             clean_up_tokenization_spaces=False,
         )[0]
     except Exception as exc:
-        return _build_invalid_qwen_result(candidate_entries, cloud_candidate_key, cloud_label, str(exc))
+        return _build_invalid_qwen_result(
+            candidate_entries,
+            cloud_candidate_key,
+            cloud_label,
+            invalid_reason=str(exc),
+            raw_output="",
+            parse_mode="exception_fallback",
+        )
 
     parsed_json = extract_json_object(output_text)
+    parse_mode = "strict_json"
+    valid_candidate_keys = {entry["key"] for entry in candidate_entries}
+    if parsed_json is None:
+        parsed_json = salvage_qwen_json_fields(output_text, valid_candidate_keys=valid_candidate_keys)
+        parse_mode = "regex_salvage" if parsed_json is not None else "fallback"
+
     if parsed_json is None:
         return _build_invalid_qwen_result(
-            candidate_entries, cloud_candidate_key, cloud_label, "json_parse_failed", output_text
+            candidate_entries,
+            cloud_candidate_key,
+            cloud_label,
+            invalid_reason="json_parse_failed",
+            raw_output=output_text,
+            parse_mode=parse_mode,
         )
 
     best_candidate = normalize_candidate_choice(parsed_json.get("best_candidate"))
-    valid_candidate_keys = {entry["key"] for entry in candidate_entries}
+    if best_candidate is None:
+        return _build_invalid_qwen_result(
+            candidate_entries,
+            cloud_candidate_key,
+            cloud_label,
+            invalid_reason="top_level_json_missing_best_candidate",
+            raw_output=output_text,
+            parse_mode=parse_mode,
+        )
+
     if best_candidate not in valid_candidate_keys:
         return _build_invalid_qwen_result(
-            candidate_entries, cloud_candidate_key, cloud_label, "candidate_out_of_range", output_text
+            candidate_entries,
+            cloud_candidate_key,
+            cloud_label,
+            invalid_reason="true_candidate_out_of_range",
+            raw_output=output_text,
+            parse_mode=parse_mode,
         )
 
     candidate_support = {}
@@ -222,6 +264,7 @@ def _infer_qwen_choice(model, processor, raw_img_path, sample, candidate_entries
         "qwen_skipped": False,
         "qwen_invalid": False,
         "qwen_invalid_reason": "",
+        "qwen_parse_mode": parse_mode,
         "qwen_choice": best_candidate,
         "qwen_choice_label": qwen_choice_label,
         "candidate_support": candidate_support,
@@ -237,35 +280,44 @@ def _infer_qwen_choice(model, processor, raw_img_path, sample, candidate_entries
 
 def _build_qwen_prompt(candidate_entries):
     candidate_lines = [
-        f"{entry['key']}: {entry['label']} (cloud_prob={entry['cloud_prob']:.4f}, edge_prob={entry['edge_prob']:.4f})"
+        f"{entry['key']}={entry['label']}|cloud={entry['cloud_prob']:.4f}|edge={entry['edge_prob']:.4f}"
         for entry in candidate_entries
     ]
-    candidate_block = "\n".join(candidate_lines)
+    candidate_block = ";".join(candidate_lines)
 
-    return f"""你是 Food-101 闭集候选重排器。你会看到 1 张目标图和若干候选类别的参考图。
+    return (
+        "You are a Food-101 closed-set reranker. "
+        "You must choose exactly one best candidate from the provided candidates only. "
+        "Return a single-line JSON object with keys best_candidate, candidate_support, ood_score, "
+        "open_description, visual_evidence. "
+        "candidate_support must be a dictionary from candidate letter to integer 0-100. "
+        "ood_score must be one integer: 0,1,2,3. "
+        "No markdown. No code fences. No explanations. "
+        f"Candidates:{candidate_block}. "
+        'Output example: {"best_candidate":"A","candidate_support":{"A":80,"B":10,"C":10},"ood_score":0,"open_description":"...","visual_evidence":"..."}'
+    )
 
-候选类别如下：
-{candidate_block}
 
-任务要求：
-1. 你只能从候选 A-F 中选择 1 个最佳候选，不能输出新类别。
-2. 你必须给出 candidate_support，为每个候选打 0-100 的整数分。
-3. 你必须给出 ood_score：
-   0 = 明显属于 Food-101 闭集且候选中有明显匹配
-   1 = 属于 Food-101 闭集但视觉上较难区分
-   2 = 可能不属于当前候选集合或有越界风险
-   3 = 高度怀疑不属于 Food-101 闭集
-4. open_description 用一句中文概括你认为目标图像里真正像什么；visual_evidence 用一句中文说明主要视觉证据。
-
-只输出 JSON，不要输出解释、Markdown 或代码块。
-输出格式固定为：
-{{
-  "best_candidate": "A",
-  "candidate_support": {{"A": 0, "B": 0, "C": 0, "D": 0, "E": 0, "F": 0}},
-  "ood_score": 0,
-  "open_description": "",
-  "visual_evidence": ""
-}}"""
+def _build_locked_result(candidate_entries, cloud_candidate_key, cloud_label):
+    return {
+        "qwen_completed": True,
+        "qwen_skipped": True,
+        "qwen_invalid": False,
+        "qwen_invalid_reason": "",
+        "qwen_parse_mode": "locked_skip",
+        "qwen_choice": cloud_candidate_key,
+        "qwen_choice_label": cloud_label,
+        "candidate_support": {
+            entry["key"]: 100 if entry["key"] == cloud_candidate_key else 0 for entry in candidate_entries
+        },
+        "qwen_best_support": 100,
+        "qwen_cloud_support": 100,
+        "ood_score": 0,
+        "ood_flag": False,
+        "open_description": "",
+        "visual_evidence": "edge/cloud top1 agree; rerank skipped",
+        "qwen_raw_output": "",
+    }
 
 
 def _load_resized_image(path, max_pixels):
@@ -281,13 +333,19 @@ def _normalize_ood_score(value):
 
 
 def _build_invalid_qwen_result(
-    candidate_entries, cloud_candidate_key, cloud_label, invalid_reason, raw_output=""
+    candidate_entries,
+    cloud_candidate_key,
+    cloud_label,
+    invalid_reason,
+    raw_output="",
+    parse_mode="fallback",
 ):
     return {
         "qwen_completed": True,
         "qwen_skipped": False,
         "qwen_invalid": True,
         "qwen_invalid_reason": invalid_reason,
+        "qwen_parse_mode": parse_mode,
         "qwen_choice": cloud_candidate_key,
         "qwen_choice_label": cloud_label,
         "candidate_support": {entry["key"]: 0 for entry in candidate_entries},
@@ -311,7 +369,13 @@ def _build_fallback_record(
         "candidate_entries": candidate_entries,
         "candidate_labels": candidate_label_list(candidate_entries),
         "cloud_candidate_key": cloud_candidate_key,
-        **_build_invalid_qwen_result(candidate_entries, cloud_candidate_key, cloud_label, invalid_reason),
+        **_build_invalid_qwen_result(
+            candidate_entries,
+            cloud_candidate_key,
+            cloud_label,
+            invalid_reason=invalid_reason,
+            parse_mode="fallback",
+        ),
     }
 
 

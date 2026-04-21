@@ -1,0 +1,1 @@
+2026-04-20 19:01:39,091 - INFO - DeepSeek 融合完成 | total=25250 | cached=0 | forced_closed_set=2985 | sources={'visual_lock': 19451, 'cloud_fallback': 5698, 'qwen_deepseek_agreement': 101} | deepseek_invalid={'qwen_invalid': 2838}

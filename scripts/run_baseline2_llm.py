@@ -1,39 +1,40 @@
+import argparse
 import json
 import os
 from openai import OpenAI
 from tqdm import tqdm
 
-def run_baseline2():
+def run_baseline2(input_file, output_file, classes_file, api_key, base_url):
     print("=== 实验(2)：纯多模态+大模型 (Qwen-VL + LLM) 基线测试启动 ===")
     
     # --- 1. API 配置 ---
-    API_KEY = "sk-4f4b9ce133984a8099c01593ec9c40ce" # 跑完后务必去后台删除重置
-    BASE_URL = "https://api.deepseek.com"
-    client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
-
-    # --- 2. 绝对路径配置 ---
-    PROJECT_ROOT = '/root/autodl-tmp/graduate/graduate'
-    IN_FILE = os.path.join(PROJECT_ROOT, 'results', 'multimodal_features.json')
-    OUT_FILE = os.path.join(PROJECT_ROOT, 'results', 'baseline2_results.json')
-    CLASSES_FILE = os.path.join(PROJECT_ROOT, 'data', 'food-101', 'meta', 'classes.txt')
-
-    # --- 3. 读取 Food-101 的 101 个真实类别名称 ---
-    if not os.path.exists(CLASSES_FILE):
-        print(f"[错误] 找不到类别文件: {CLASSES_FILE}")
+    if not api_key:
+        print("[错误] 未提供 API Key。请设置 DEEPSEEK_API_KEY 环境变量或通过 --api_key 传参。")
         return
         
-    with open(CLASSES_FILE, 'r', encoding='utf-8') as f:
+    client = OpenAI(api_key=api_key, base_url=base_url)
+
+    # --- 2. 读取 Food-101 的 101 个真实类别名称 ---
+    if not os.path.exists(classes_file):
+        print(f"[错误] 找不到类别文件: {classes_file}")
+        return
+        
+    with open(classes_file, 'r', encoding='utf-8') as f:
         classes_list = [line.strip() for line in f.readlines() if line.strip()]
     
     classes_str = ", ".join(classes_list)
 
-    # --- 4. 读取多模态特征数据 ---
-    with open(IN_FILE, 'r', encoding='utf-8') as f:
+    # --- 3. 读取多模态特征数据 ---
+    if not os.path.exists(input_file):
+        print(f"[错误] 找不到特征数据文件: {input_file}")
+        return
+
+    with open(input_file, 'r', encoding='utf-8') as f:
         all_results = json.load(f)
 
     # 断点续传支持
-    if os.path.exists(OUT_FILE):
-        with open(OUT_FILE, 'r', encoding='utf-8') as f:
+    if os.path.exists(output_file):
+        with open(output_file, 'r', encoding='utf-8') as f:
             saved_results = json.load(f)
             for k, v in saved_results.items():
                 if 'baseline2_pred' in v:
@@ -73,8 +74,12 @@ def run_baseline2():
         except Exception as e:
             return "unknown" # 失败时标记为 unknown
 
-    # --- 5. 循环推理 ---
+    # --- 4. 循环推理 ---
     processed_in_this_run = 0
+    
+    # 确保输出目录存在
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    
     for img_path, data in tqdm(all_results.items()):
         if 'baseline2_pred' in data:
             continue
@@ -84,14 +89,30 @@ def run_baseline2():
         processed_in_this_run += 1
 
         if processed_in_this_run % 500 == 0:
-            with open(OUT_FILE, 'w', encoding='utf-8') as f:
+            with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(all_results, f, indent=4, ensure_ascii=False)
 
-    # --- 6. 最终保存 ---
-    with open(OUT_FILE, 'w', encoding='utf-8') as f:
+    # --- 5. 最终保存 ---
+    with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(all_results, f, indent=4, ensure_ascii=False)
         
-    print(f"\n[完成] 实验(2) 纯大模型基线结果已保存至: {OUT_FILE}")
+    print(f"\n[完成] 实验(2) 纯大模型基线结果已保存至: {output_file}")
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="运行实验(2)：纯多模态+大模型基线测试")
+    parser.add_argument("--input", default="./results/multimodal_features.json", help="多模态特征文件路径 (默认: ./results/multimodal_features.json)")
+    parser.add_argument("--output", default="./results/baseline2_results.json", help="输出结果文件路径 (默认: ./results/baseline2_results.json)")
+    parser.add_argument("--classes", default="./data/food-101/meta/classes.txt", help="类别字典文件路径 (默认: ./data/food-101/meta/classes.txt)")
+    parser.add_argument("--api_key", default=os.environ.get("DEEPSEEK_API_KEY"), help="DeepSeek API Key (优先使用环境变量 DEEPSEEK_API_KEY)")
+    parser.add_argument("--base_url", default="https://api.deepseek.com", help="模型 API 的 Base URL")
+    return parser.parse_args()
 
 if __name__ == "__main__":
-    run_baseline2()
+    cli_args = parse_args()
+    run_baseline2(
+        input_file=cli_args.input,
+        output_file=cli_args.output,
+        classes_file=cli_args.classes,
+        api_key=cli_args.api_key,
+        base_url=cli_args.base_url
+    )

@@ -1,0 +1,22 @@
+2026-04-21 14:18:39,517 - INFO - ========================================================
+最终答辩核心指标对比
+========================================================
+cloud-only 基线: 86.36%
+实验(1) [纯视觉协同, T=0.8]: 84.87%
+实验(2) [纯多模态+LLM 基线]: 51.71%
+实验(3) [当前融合结果]: 87.55%
+锁定样本被改坏数量: 0
+baseline2_key_overlap: 25250/25250
+baseline2_missing_count: 0
+final_source 分布: {'qwen_eq_cloud_keep_cloud': 4691, 'visual_lock': 19451, 'reasoner_use_qwen_edge': 10, 'reasoner_use_qwen': 10, 'qwen_eq_edge_use_qwen': 686, 'edge_override': 22, 'all_different_use_qwen': 380}
+routing_bucket 分布: {'qwen_eq_cloud': 4709, 'agreement': 19451, 'qwen_eq_edge': 696, 'all_different': 394}
+qwen_invalid 分布: {}
+deepseek_invalid 分布: {}
+edge_override_count: 22
+deepseek_reasoner_called_count: 20
+deepseek_reasoner_decision 分布: {'SKIPPED': 25230, 'USE_QWEN_EDGE': 10, 'USE_QWEN': 10}
+========================================================
+bucket=agreement | total=19451 | edge=94.45% | cloud=94.45% | qwen=94.45% | final=94.45%
+bucket=qwen_eq_cloud | total=4709 | edge=10.04% | cloud=67.87% | qwen=67.87% | final=68.00%
+bucket=qwen_eq_edge | total=696 | edge=49.28% | cloud=23.71% | qwen=49.28% | final=49.28%
+bucket=all_different | total=394 | edge=12.69% | cloud=18.78% | qwen=47.97% | final=48.48%

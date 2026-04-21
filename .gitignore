@@ -6,3 +6,5 @@ data/*
 pytorch_cifar_models/
 
 models/weights/
+
+*.json
